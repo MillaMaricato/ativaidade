@@ -1,0 +1,1002 @@
+.cursos {
+    background-color: #42454f80;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .cursos .overlap-wrapper {
+    background-color: #42454f80;
+    width: 1469px;
+    height: 5289px;
+  }
+  
+  .cursos .overlap {
+    position: relative;
+    width: 1401px;
+    height: 5208px;
+    top: 41px;
+    left: 34px;
+    border-radius: 20px;
+  }
+  
+  .cursos .wireframe {
+    position: absolute;
+    width: 1401px;
+    height: 5208px;
+    top: 0;
+    left: 0;
+    background-color: #ffffffd9;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #dfdbe9;
+    backdrop-filter: blur(30px) brightness(100%);
+    -webkit-backdrop-filter: blur(30px) brightness(100%);
+  }
+  
+  .cursos .frame {
+    display: flex;
+    flex-direction: column;
+    width: 1398px;
+    align-items: flex-start;
+    gap: 5px;
+    position: absolute;
+    top: 691px;
+    left: -1px;
+  }
+  
+  .cursos .div {
+    position: relative;
+    width: 1436px;
+    height: 523px;
+    margin-right: -38px;
+  }
+  
+  .cursos .frame-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 27px;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 72px;
+    border-radius: 10px;
+  }
+  
+  .cursos .image {
+    width: 355px;
+    height: 238px;
+    position: relative;
+    object-fit: cover;
+  }
+  
+  .cursos .frame-3 {
+    display: flex;
+    flex-direction: column;
+    width: 356px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .cursos .div-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #212121;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    line-height: normal;
+  }
+  
+  .cursos .p {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--systemgrey-600);
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+  }
+  
+  .cursos .text-wrapper {
+    letter-spacing: 0.04px;
+  }
+  
+  .cursos .frame-4 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 27px;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 528px;
+    border-radius: 10px;
+  }
+  
+  .cursos .img {
+    width: 359px;
+    height: 236px;
+    position: relative;
+    object-fit: cover;
+  }
+  
+  .cursos .frame-5 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 27px;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 964px;
+    border-radius: 10px;
+  }
+  
+  .cursos .img-2 {
+    width: 356px;
+    height: 236px;
+    position: relative;
+    object-fit: cover;
+  }
+  
+  .cursos .card {
+    position: absolute;
+    width: 356px;
+    height: 236px;
+    top: 140px;
+    left: -389px;
+    background-color: #ecedef;
+    border-radius: 27px;
+    border: 1px solid;
+    border-color: transparent;
+    backdrop-filter: blur(60px) brightness(100%);
+    -webkit-backdrop-filter: blur(60px) brightness(100%);
+    border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(211.44, 211.44, 211.44, 0.1)) 1;
+    opacity: 0.5;
+  }
+  
+  .cursos .frame-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1398px;
+    align-items: flex-start;
+    gap: 5px;
+    position: absolute;
+    top: 1377px;
+    left: -1px;
+  }
+  
+  .cursos .div-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1398px;
+    align-items: flex-start;
+    gap: 5px;
+    position: absolute;
+    top: 2054px;
+    left: -1px;
+  }
+  
+  .cursos .image-2 {
+    width: 383px;
+    height: 236px;
+    position: relative;
+    object-fit: cover;
+  }
+  
+  .cursos .frame-6 {
+    display: flex;
+    flex-direction: column;
+    width: 1398px;
+    align-items: flex-start;
+    gap: 5px;
+    position: absolute;
+    top: 2731px;
+    left: -1px;
+  }
+  
+  .cursos .span {
+    letter-spacing: 0.06px;
+  }
+  
+  .cursos .frame-7 {
+    position: absolute;
+    width: 1398px;
+    height: 523px;
+    top: 3408px;
+    left: -1px;
+  }
+  
+  .cursos .frame-8 {
+    position: relative;
+    width: 1436px;
+    height: 523px;
+  }
+  
+  .cursos .frame-9 {
+    display: inline-flex;
+    flex-direction: column;
+    height: 523px;
+    align-items: flex-start;
+    gap: 27px;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 964px;
+    border-radius: 10px;
+  }
+  
+  .cursos .card-2 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+    object-fit: cover;
+  }
+  
+  .cursos .frame-10 {
+    display: flex;
+    flex-direction: column;
+    width: 1398px;
+    align-items: flex-start;
+    gap: 5px;
+    position: absolute;
+    top: 4085px;
+    left: -1px;
+  }
+  
+  .cursos .footer {
+    position: absolute;
+    width: 1380px;
+    height: 377px;
+    top: 4799px;
+    left: 11px;
+    background-color: var(--lightprimaryorigin);
+    border-radius: 20px;
+  }
+  
+  .cursos .frame-11 {
+    display: flex;
+    width: 415px;
+    align-items: flex-start;
+    gap: 116px;
+    position: absolute;
+    top: 24px;
+    left: 91px;
+  }
+  
+  .cursos .frame-12 {
+    position: relative;
+    width: 99px;
+    height: 222px;
+  }
+  
+  .cursos .product {
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+    border-color: var(--white);
+  }
+  
+  .cursos .frame-13 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+    position: absolute;
+    top: 43px;
+    left: 0;
+  }
+  
+  .cursos .employee-database {
+    position: relative;
+    width: fit-content;
+    margin-top: -2px;
+    margin-left: -1px;
+    opacity: 0.7;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    border-color: var(--white);
+  }
+  
+  .cursos .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-left: -1px;
+    opacity: 0.7;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    border-color: var(--white);
+  }
+  
+  .cursos .frame-14 {
+    position: relative;
+    width: 159px;
+    height: 107px;
+  }
+  
+  .cursos .company {
+    position: absolute;
+    width: 159px;
+    top: -2px;
+    left: -1px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+    border-color: var(--white);
+  }
+  
+  .cursos .frame-15 {
+    display: flex;
+    flex-direction: column;
+    width: 159px;
+    height: 115px;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    top: 43px;
+    left: 0;
+  }
+  
+  .cursos .about-us {
+    position: relative;
+    width: 190px;
+    margin-top: -2px;
+    margin-left: -1px;
+    margin-right: -30px;
+    opacity: 0.7;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    border-color: var(--white);
+  }
+  
+  .cursos .careers {
+    position: relative;
+    width: 189px;
+    margin-left: -1px;
+    margin-right: -29px;
+    opacity: 0.7;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    border-color: var(--white);
+  }
+  
+  .cursos .frame-16 {
+    position: absolute;
+    width: 340px;
+    height: 224px;
+    top: 23px;
+    left: 949px;
+    background-color: var(--lightprimarydarker);
+  }
+  
+  .cursos .frame-17 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    position: relative;
+    top: 30px;
+    left: 42px;
+  }
+  
+  .cursos .learn-more {
+    position: relative;
+    width: 149px;
+    margin-top: -2px;
+    margin-left: -1px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+    border-color: var(--white);
+  }
+  
+  .cursos .frame-18 {
+    display: flex;
+    width: 248px;
+    align-items: center;
+    gap: 56px;
+    padding: 0px 0px 0px 15px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--white);
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: var(--systemgrey-350);
+  }
+  
+  .cursos .label {
+    position: relative;
+    flex: 1;
+    margin-left: -1px;
+    opacity: 0.6;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--systemgrey-800);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    border-color: var(--white);
+  }
+  
+  .cursos .icon-lucide-icon-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 13px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--lightprimaryorigin);
+    border-radius: 0px 6px 6px 0px;
+  }
+  
+  .cursos .icon-lucide-icon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .cursos .hello-we-are-flair {
+    position: relative;
+    width: 254px;
+    height: 41px;
+    opacity: 0.7;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 20.4px;
+  }
+  
+  .cursos .divider {
+    position: absolute;
+    width: 1203px;
+    height: 4px;
+    top: 270px;
+    left: 86px;
+    background-color: var(--white);
+    border: 1px solid;
+    opacity: 0.06;
+    border-color: var(--white);
+  }
+  
+  .cursos .prancheta-cpia-wrapper {
+    position: absolute;
+    width: 1200px;
+    height: 53px;
+    top: 291px;
+    left: 88px;
+  }
+  
+  .cursos .prancheta-cpia {
+    position: absolute;
+    width: 126px;
+    height: 61px;
+    top: 0;
+    left: -29px;
+    object-fit: cover;
+  }
+  
+  .cursos .frame-19 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 36px;
+    position: absolute;
+    top: 220px;
+    left: 595px;
+  }
+  
+  .cursos .pricing {
+    margin-left: -1px;
+    position: relative;
+    width: fit-content;
+    margin-top: -2px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--white);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    border-color: var(--white);
+  }
+  
+  .cursos .pricing-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -2px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--white);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    border-color: var(--white);
+  }
+  
+  .cursos .frame-20 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 15px;
+    position: absolute;
+    top: 133px;
+    left: 595px;
+  }
+  
+  .cursos .group {
+    position: relative;
+    width: 35px;
+    height: 35px;
+  }
+  
+  .cursos .overlap-group {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    top: -1px;
+    left: -1px;
+    background-image: url(./img/oval-10-copy-3.svg);
+    background-size: 100% 100%;
+  }
+  
+  .cursos .icon-lucide-icon-2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 8px;
+    left: 9px;
+  }
+  
+  .cursos .overlap-group-wrapper {
+    height: 35px;
+  }
+  
+  .cursos .img-wrapper {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    top: -1px;
+    left: -1px;
+    background-image: url(./img/oval-10.svg);
+    background-size: 100% 100%;
+  }
+  
+  .cursos .group-2 {
+    position: relative;
+    width: 36.5px;
+    height: 36.5px;
+    margin-top: -0.75px;
+    margin-bottom: -0.75px;
+    margin-right: -0.75px;
+  }
+  
+  .cursos .group-3 {
+    position: absolute;
+    width: 267px;
+    height: 52px;
+    top: 24px;
+    left: 595px;
+  }
+  
+  .cursos .frame-21 {
+    display: flex;
+    width: 128px;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    padding: 14px 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid;
+  }
+  
+  .cursos .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    margin-left: -0.5px;
+    margin-right: -0.5px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #3563e9;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .cursos .frame-22 {
+    display: flex;
+    width: 128px;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    padding: 14px 16px;
+    position: absolute;
+    top: 0;
+    left: 139px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: #3563e9;
+  }
+  
+  .cursos .text-wrapper-4 {
+    color: #3563e9;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .cursos .hero {
+    position: absolute;
+    width: 1401px;
+    height: 554px;
+    top: 137px;
+    left: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: url(./img/image-2.svg);
+    background-size: 100% 100%;
+  }
+  
+  .cursos .group-4 {
+    position: absolute;
+    width: 65px;
+    height: 237px;
+    top: 296px;
+    left: 1277px;
+  }
+  
+  .cursos .overlap-2 {
+    position: relative;
+    width: 61px;
+    height: 237px;
+    background-color: #ffffff80;
+    border-radius: 20px;
+    backdrop-filter: blur(20px) brightness(100%);
+    -webkit-backdrop-filter: blur(20px) brightness(100%);
+  }
+  
+  .cursos .rectangle {
+    position: absolute;
+    width: 61px;
+    height: 237px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff80;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: transparent;
+    backdrop-filter: blur(20px) brightness(100%);
+    -webkit-backdrop-filter: blur(20px) brightness(100%);
+    border-image: linear-gradient(to bottom, rgb(223, 219, 233), rgba(223, 219, 233, 0.29)) 1;
+  }
+  
+  .cursos .group-5 {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    top: 80px;
+    left: 11px;
+  }
+  
+  .cursos .overlap-group-2 {
+    position: relative;
+    height: 34px;
+  }
+  
+  .cursos .icon-circle-fill {
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    top: 7px;
+    left: 7px;
+  }
+  
+  .cursos .icon-feather-icon {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    top: 0;
+    left: 0;
+  }
+  
+  .cursos .group-6 {
+    position: absolute;
+    width: 32px;
+    height: 29px;
+    top: 151px;
+    left: 17px;
+  }
+  
+  .cursos .overlap-3 {
+    position: relative;
+    height: 29px;
+  }
+  
+  .cursos .icon-feather-icon-2 {
+    top: 5px;
+    left: 0;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .cursos .icon-feather-icon-3 {
+    top: 0;
+    left: 8px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .cursos .a {
+    width: 33px;
+    top: 14px;
+    position: absolute;
+    left: 17px;
+    font-family: "Zen Antique-Regular", Helvetica;
+    font-weight: 400;
+    color: #3563e9;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .cursos .text-wrapper-5 {
+    color: #000000;
+  }
+  
+  .cursos .text-wrapper-6 {
+    color: #000000;
+    font-size: 15px;
+  }
+  
+  .cursos .a-2 {
+    width: 30px;
+    height: 24px;
+    top: 47px;
+    position: absolute;
+    left: 17px;
+    font-family: "Zen Antique-Regular", Helvetica;
+    font-weight: 400;
+    color: #3563e9;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .cursos .vector {
+    position: absolute;
+    width: 2px;
+    height: 4px;
+    top: 140px;
+    left: 17px;
+  }
+  
+  .cursos .group-7 {
+    position: absolute;
+    width: 32px;
+    height: 25px;
+    top: 119px;
+    left: 13px;
+    background-image: url(./img/maos-libra-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .cursos .mao-wrapper {
+    position: absolute;
+    width: 22px;
+    height: 28px;
+    top: 195px;
+    left: 18px;
+    background-image: url(./img/icon-headset.png);
+    background-size: 100% 100%;
+  }
+  
+  .cursos .mao {
+    position: absolute;
+    width: 12px;
+    height: 14px;
+    top: 7px;
+    left: 5px;
+    object-fit: cover;
+  }
+  
+  .cursos .text-wrapper-7 {
+    position: absolute;
+    width: 952px;
+    height: 58px;
+    top: 266px;
+    left: 233px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    line-height: normal;
+  }
+  
+  .cursos .aprimoramento {
+    position: absolute;
+    width: 1202px;
+    height: 120px;
+    top: 370px;
+    left: 108px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    line-height: normal;
+  }
+  
+  .cursos .text-wrapper-8 {
+    font-weight: 600;
+    letter-spacing: 0.06px;
+  }
+  
+  .cursos .text-wrapper-9 {
+    font-family: "Inter-Regular", Helvetica;
+    letter-spacing: 0.06px;
+  }
+  
+  .cursos .frame-23 {
+    width: 1277px;
+    justify-content: space-between;
+    top: 21px;
+    left: 91px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+  }
+  
+  .cursos .logo-ativa-idade {
+    position: relative;
+    width: 225px;
+    height: 97px;
+    object-fit: cover;
+  }
+  
+  .cursos .navbar {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .cursos .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #3563e9;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .cursos .group-8 {
+    position: relative;
+    width: 266.67px;
+    height: 52px;
+  }
+  
+  .cursos .frame-24 {
+    display: flex;
+    width: 128px;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    padding: 14px 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #3563e9;
+    border-radius: 20px;
+    border: 1px solid;
+  }
+  
+  .cursos .text-wrapper-11 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    margin-left: -0.5px;
+    margin-right: -0.5px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .cursos .frame-25 {
+    width: 128px;
+    justify-content: center;
+    gap: 1px;
+    padding: 14px 16px;
+    top: 0;
+    left: 139px;
+    background-color: #3563e9;
+    border-radius: 20px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    position: absolute;
+  }
+  
+  .cursos .text-wrapper-12 {
+    color: #ffffff;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
