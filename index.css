@@ -1,1619 +1,343 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
 .pagina-inicial {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .pagina-inicial .overlap-wrapper {
-    width: 1260px;
-    height: auto;
-  }
-  
-  .pagina-inicial .overlap {
-    position: relative;
-    width: 1260px;
-    height: auto;
-  }
-  
-  .pagina-inicial .wireframe {
-    position: absolute;
-    width: 1260px;
-    height: 5208px;
-    top: 0;
-    left: 21px;
-    background-color: #ffffffd9;
-    border-radius: 20px;
-    overflow: hidden;
-    border: 1px solid;
-    border-color: #dfdbe9;
-    backdrop-filter: blur(30px) brightness(100%);
-    -webkit-backdrop-filter: blur(30px) brightness(100%);
-  }
-  
-  .pagina-inicial .frame {
-    display: flex;
-    width: 1332px;
-    align-items: center;
-    justify-content: space-between;
-    position: absolute;
-    top: 21px;
-    left: 35px;
-  }
-  
-  .pagina-inicial .logo-ativa-idade {
-    position: relative;
-    width: 225px;
-    height: 97px;
-    object-fit: cover;
-  }
-  
-  .pagina-inicial .menu {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 32px;
-    position: relative;
-    flex: 0 0 auto;
-  }
-  
-  .pagina-inicial .text-wrapper {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #3563e9;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 24px;
-    white-space: nowrap;
-  }
- 
-   /*
-  .pagina-inicial .div {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #3563e9;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 24px;
-    white-space: nowrap;
-  }
-  */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #f0f0f0;
+}
 
-  .pagina-inicial .group {
-    position: relative;
-    width: 266.67px;
-    height: 52px;
-  }
-  
-  .pagina-inicial .div-wrapper {
-    display: flex;
-    width: 128px;
-    align-items: center;
-    justify-content: center;
-    gap: 1px;
-    padding: 14px 16px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #3563e9;
-    border-radius: 20px;
-    border: 1px solid;
-  }
-  
-  .pagina-inicial .text-wrapper-2 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    margin-left: -0.5px;
-    margin-right: -0.5px;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 24px;
-    white-space: nowrap;
-  }
-  
-  .pagina-inicial .frame-2 {
-    background-color: #3563e9;
-    display: flex;
-    width: 128px;
-    align-items: center;
-    justify-content: center;
-    gap: 1px;
-    padding: 14px 16px;
-    position: absolute;
-    top: 0;
-    left: 139px;
-    border-radius: 20px;
-    border: 1px solid;
-  }
-  
-  .pagina-inicial .text-wrapper-3 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 24px;
-    white-space: nowrap;
-  }
-  
-  .pagina-inicial .banner {
-    position: absolute;
-    width: 1401px;
-    height: 699px;
-    top: 137px;
-    left: 0;
-    background-image: url(./img/pexels-16647512-1.png);
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-  
-  .pagina-inicial .ellipse {
-    left: 675px;
-    position: absolute;
-    width: 20px;
-    height: 19px;
-    top: 655px;
-    background-color: #ffffff;
-    border-radius: 10px/9.55px;
-  }
-  
-  .pagina-inicial .ellipse-2 {
-    left: 703px;
-    opacity: 0.6;
-    position: absolute;
-    width: 20px;
-    height: 19px;
-    top: 655px;
-    background-color: #ffffff;
-    border-radius: 10px/9.55px;
-  }
-  
-  .pagina-inicial .overlap-group-wrapper {
-    position: absolute;
-    width: 65px;
-    height: 237px;
-    top: 215px;
-    left: 1306px;
-  }
-  
-  .pagina-inicial .overlap-2 {
-    position: relative;
-    width: 61px;
-    height: 237px;
-    background-color: #ffffff80;
-    border-radius: 20px;
-    backdrop-filter: blur(20px) brightness(100%);
-    -webkit-backdrop-filter: blur(20px) brightness(100%);
-  }
-  
-  .pagina-inicial .rectangle {
-    position: absolute;
-    width: 61px;
-    height: 237px;
-    top: 0;
-    left: 0;
-    background-color: #ffffff80;
-    border-radius: 20px;
-    border: 1px solid;
-    border-color: transparent;
-    backdrop-filter: blur(20px) brightness(100%);
-    -webkit-backdrop-filter: blur(20px) brightness(100%);
-    border-image: linear-gradient(to bottom, rgb(223, 219, 233), rgba(223, 219, 233, 0.29)) 1;
-  }
-  
-  .pagina-inicial .group-2 {
-    position: absolute;
-    width: 34px;
-    height: 34px;
-    top: 80px;
-    left: 11px;
-  }
-  
-  .pagina-inicial .overlap-group-2 {
-    position: relative;
-    height: 34px;
-  }
-  
-  .pagina-inicial .icon-circle-fill {
-    position: absolute;
-    width: 10px;
-    height: 20px;
-    top: 7px;
-    left: 7px;
-  }
-  
-  .pagina-inicial .icon-feather-icon {
-    position: absolute;
-    width: 34px;
-    height: 34px;
-    top: 0;
-    left: 0;
-  }
-  
-  .pagina-inicial .group-3 {
-    position: absolute;
-    width: 32px;
-    height: 29px;
-    top: 151px;
-    left: 17px;
-  }
-  
-  .pagina-inicial .overlap-3 {
-    position: relative;
-    height: 29px;
-  }
-  
-  .pagina-inicial .img {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 5px;
-    left: 0;
-  }
-  
-  .pagina-inicial .icon-feather-icon-2 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 0;
-    left: 8px;
-  }
-  
-  .pagina-inicial .a {
-    position: absolute;
-    width: 33px;
-    top: 14px;
-    left: 17px;
-    font-family: "Zen Antique-Regular", Helvetica;
-    font-weight: 400;
-    color: #3563e9;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: 24px;
-  }
-  
-  .pagina-inicial .span {
-    color: #000000;
-  }
-  
-  .pagina-inicial .text-wrapper-4 {
-    color: #000000;
-    font-size: 15px;
-  }
-  
-  .pagina-inicial .p {
-    position: absolute;
-    width: 30px;
-    height: 24px;
-    top: 47px;
-    left: 17px;
-    font-family: "Zen Antique-Regular", Helvetica;
-    font-weight: 400;
-    color: #3563e9;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: 24px;
-  }
-  
-  .pagina-inicial .vector {
-    position: absolute;
-    width: 2px;
-    height: 4px;
-    top: 140px;
-    left: 17px;
-  }
-  
-  .pagina-inicial .group-4 {
-    position: absolute;
-    width: 32px;
-    height: 25px;
-    top: 119px;
-    left: 13px;
-    background-image: url(./img/maos-libra-1.png);
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-  
-  .pagina-inicial .mao-wrapper {
-    position: absolute;
-    width: 22px;
-    height: 28px;
-    top: 195px;
-    left: 18px;
-    background-image: url(./img/icon-headset.png);
-    background-size: 100% 100%;
-  }
-  
-  .pagina-inicial .mao {
-    position: absolute;
-    width: 12px;
-    height: 14px;
-    top: 7px;
-    left: 6px;
-    object-fit: cover;
-  }
-  
-  .pagina-inicial .overlap-4 {
-    position: absolute;
-    width: 329px;
-    height: 133px;
-    top: 539px;
-    left: 60px;
-  }
-  
-  .pagina-inicial .frame-3 {
-    position: absolute;
-    width: 329px;
-    height: 133px;
-    top: 0;
-    left: 0;
-  }
-  
-  .pagina-inicial .overlap-5 {
-    width: 357px;
-    height: 133px;
-    border-radius: 11.65px;
-    backdrop-filter: blur(14.56px) brightness(100%);
-    -webkit-backdrop-filter: blur(14.56px) brightness(100%);
-    background: linear-gradient(180deg, rgba(53, 99, 233, 0.5) 0%, rgba(53, 99, 233, 0.22) 100%);
-  }
-  
-  .pagina-inicial .somos-a-ativa-idade {
-    position: absolute;
-    top: 0;
-    left: 21px;
-    font-family: "Nunito Sans-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 48px;
-    letter-spacing: 0.2px;
-    line-height: normal;
-  }
-  
-  .pagina-inicial .text-wrapper-5 {
-    letter-spacing: 0.1px;
-  }
-  
-  .pagina-inicial .text-wrapper-6 {
-    font-family: "Nunito Sans-Bold", Helvetica;
-    font-weight: 700;
-    letter-spacing: 0.1px;
-  }
-  
-  .pagina-inicial .frame-4 {
-    position: absolute;
-    width: 1200px;
-    height: 124px;
-    top: 1339px;
-    left: 101px;
-  }
-  
-  .pagina-inicial .quem-somos {
-    position: absolute;
-    width: 1196px;
-    height: 58px;
-    top: 4px;
-    left: 2px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #212121;
-    font-size: 48px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    line-height: normal;
-  }
-  
-  .pagina-inicial .saiba-como-surgiu-a {
-    position: absolute;
-    width: 826px;
-    height: 24px;
-    top: 99px;
-    left: 188px;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #757575;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    line-height: normal;
-  }
-  
-  .pagina-inicial .text-wrapper-7 {
-    letter-spacing: 0.04px;
-  }
-  
-  .pagina-inicial .image {
-    position: absolute;
-    width: 926px;
-    height: 576px;
-    top: 1503px;
-    left: 238px;
-    background-color: #3563e917;
-    border-radius: 20px;
-  }
-  
-  .pagina-inicial .group-5 {
-    position: relative;
-    width: 830px;
-    height: 504px;
-    top: 36px;
-    left: 51px;
-  }
-  
-  .pagina-inicial .a-ativa-idade-foi {
-    position: absolute;
-    width: 391px;
-    top: 0;
-    left: 0;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: var(--systemgrey-700);
-    font-size: 18px;
-    letter-spacing: 0.2px;
-    line-height: 24px;
-  }
-  
-  .pagina-inicial .text-wrapper-8 {
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    letter-spacing: 0.04px;
-  }
-  
-  /*
-  .pagina-inicial .ao-pesquisar-e {
-    position: absolute;
-    width: 393px;
-    top: 0;
-    left: 433px;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: var(--systemgrey-700);
-    font-size: 18px;
-    letter-spacing: 0.2px;
-    line-height: 24px;
-  }
-  */
-  
-  .pagina-inicial .group-6 {
-    position: absolute;
-    width: 562px;
-    height: 207px;
-    top: 3011px;
-    left: 41px;
-  }
-  
-  .pagina-inicial .frame-5 {
-    display: flex;
-    flex-direction: column;
-    width: 562px;
-    align-items: flex-start;
-    gap: 24px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  .pagina-inicial .frame-6 {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    position: relative;
-    flex: 0 0 auto;
-  }
-  
-  .pagina-inicial .agenda-cultural {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #212121;
-    font-size: 48px;
-    letter-spacing: 0.2px;
-    line-height: normal;
-  }
-  
-  .pagina-inicial .programacao {
-    position: relative;
-    align-self: stretch;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: var(--systemgrey-600);
-    font-size: 20px;
-    letter-spacing: 0.2px;
-    line-height: normal;
-  }
-  
-  .pagina-inicial .frame-wrapper {
-    position: absolute;
-    width: 370px;
-    height: 80px;
-    top: 127px;
-    left: 3px;
-  }
-  
-  .pagina-inicial .encontre-os-melhores-wrapper {
-    display: flex;
-    width: 486px;
-    align-items: center;
-    gap: 10px;
-    position: relative;
-    left: -3px;
-  }
-  
-  .pagina-inicial .encontre-os-melhores {
-    position: relative;
-    width: 499px;
-    height: 98px;
-    margin-top: -1px;
-    margin-right: -13px;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #000000;
-    font-size: 18px;
-    letter-spacing: 0.2px;
-    line-height: normal;
-  }
-  
-  .pagina-inicial .text-wrapper-9 {
-    color: #212121;
-    letter-spacing: 0.04px;
-  }
-  
-  .pagina-inicial .pexels {
-    position: absolute;
-    width: 720px;
-    height: 618px;
-    top: 2805px;
-    left: 641px;
-    object-fit: cover;
-  }
-  
-  .pagina-inicial .premium {
-    position: absolute;
-    width: 1333px;
-    height: 368px;
-    top: 888px;
-    left: 56px;
-  }
-  
-  .pagina-inicial .div-2 {
-    position: absolute;
-    width: 643px;
-    height: 368px;
-    top: 0;
-    left: 0;
-    border-radius: 20px;
-    background: linear-gradient(180deg, rgba(53, 99, 233, 0.07) 0%, rgba(53, 99, 233, 0.1) 100%);
-  }
-  
-  .pagina-inicial .group-7 {
-    position: absolute;
-    width: 637px;
-    height: 155px;
-    top: 60px;
-    left: 5px;
-  }
-  
-  .pagina-inicial .text-wrapper-10 {
-    position: absolute;
-    width: 633px;
-    height: 58px;
-    top: 0;
-    left: 0;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #212121;
-    font-size: 48px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    line-height: 58.3px;
-  }
-  
-  .pagina-inicial .acesse-nossas-vagas {
-    position: absolute;
-    width: 633px;
-    height: 78px;
-    top: 77px;
-    left: 0;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: var(--systemgrey-600);
-    font-size: 32px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    line-height: normal;
-  }
-  
-  .pagina-inicial .text-wrapper-11 {
-    letter-spacing: 0.06px;
-  }
-  
-  .pagina-inicial .frame-7 {
-    top: 256px;
-    left: 258px;
-    border-color: transparent;
-    background: linear-gradient(180deg, rgba(53, 99, 233, 0.5) 0%, rgba(53, 99, 233, 0.22) 100%);
-    display: flex;
-    width: 128px;
-    align-items: center;
-    justify-content: center;
-    gap: 1px;
-    padding: 14px 16px;
-    position: absolute;
-    border-radius: 20px;
-    border: 1px solid;
-  }
-  
-  .pagina-inicial .overlap-6 {
-    position: absolute;
-    width: 648px;
-    height: 368px;
-    top: 0;
-    left: 690px;
-  }
-  
-  .pagina-inicial .group-8 {
-    position: absolute;
-    width: 639px;
-    height: 293px;
-    top: 29px;
-    left: 9px;
-  }
-  
-  .pagina-inicial .cursos {
-    position: absolute;
-    width: 633px;
-    height: 116px;
-    top: 0;
-    left: 0;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #212121;
-    font-size: 48px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    line-height: 58.3px;
-  }
-  
-  .pagina-inicial .conhe-a-nossos {
-    position: absolute;
-    width: 633px;
-    height: 78px;
-    top: 135px;
-    left: 0;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: var(--systemgrey-600);
-    font-size: 32px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    line-height: normal;
-  }
-  
-  .pagina-inicial .overlap-group-3 {
-    position: absolute;
-    width: 128px;
-    height: 52px;
-    top: 241px;
-    left: 249px;
-    border-radius: 20px;
-    background: linear-gradient(180deg, rgba(53, 99, 233, 0.5) 0%, rgba(53, 99, 233, 0.22) 100%);
-  }
-  
-  .pagina-inicial .text-wrapper-12 {
-    position: absolute;
-    top: 14px;
-    left: 20px;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #3563e9;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 24px;
-    white-space: nowrap;
-  }
-  
-  .pagina-inicial .frame-8 {
-    position: absolute;
-    width: 1440px;
-    height: 186px;
-    top: 2125px;
-    left: 0;
-  }
-  
-  .pagina-inicial .nossos-valores-wrapper {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    position: absolute;
-    top: 44px;
-    left: 244px;
-  }
-  
-  .pagina-inicial .div-3 {
-    position: relative;
-    width: 952px;
-    margin-top: -1px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #212121;
-    font-size: 48px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    line-height: normal;
-  }
-  
-  .pagina-inicial .a-nossa-miss-o {
-    position: absolute;
-    width: 926px;
-    height: 24px;
-    top: 134px;
-    left: 257px;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: var(--systemgrey-600);
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    line-height: normal;
-  }
-  
-  .pagina-inicial .frame-9 {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: absolute;
-    top: 2313px;
-    left: 120px;
-  }
-  
-  .pagina-inicial .frame-10 {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 39px;
-    position: relative;
-    flex: 0 0 auto;
-  }
-  
-  .pagina-inicial .frame-11 {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 22px;
-    padding: 20px;
-    position: relative;
-    flex: 0 0 auto;
-  }
-  
-  .pagina-inicial .avatar {
-    position: relative;
-    width: 60px;
-    height: 60px;
-    background-color: var(--lightprimarya-8);
-    border-radius: 50px;
-    overflow: hidden;
-  }
-  
-  .pagina-inicial .icon-feather-icon-3 {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 15px;
-    left: 15px;
-  }
-  
-  .pagina-inicial .frame-12 {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    position: relative;
-    flex: 0 0 auto;
-  }
-  
-  .pagina-inicial .text-wrapper-13 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #212121;
-    font-size: 24px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    line-height: normal;
-  }
-  
-  .pagina-inicial .text-wrapper-14 {
-    line-height: normal;
-    position: relative;
-    width: 334px;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #616161;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 0.2px;
-  }
-  
-  .pagina-inicial .text-wrapper-15 {
-    line-height: 24px;
-    position: relative;
-    width: 334px;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: var(--systemgrey-700);
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 0.2px;
-  }
-  
-  .pagina-inicial .icon-feather-icon-wrapper {
-    position: relative;
-    width: 30px;
-    height: 30px;
-    top: 15px;
-    left: 15px;
-    background-image: url(./img/feather-icon.png);
-    background-size: 100% 100%;
-  }
-  
-  .pagina-inicial .icon-feather-icon-4 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 3px;
-    left: 3px;
-  }
-  
-  .pagina-inicial .icon-feather-icon-5 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 18px;
-    left: 18px;
-  }
-  
-  .pagina-inicial .clients {
-    position: absolute;
-    width: 1396px;
-    height: 630px;
-    top: 3419px;
-    left: 22px;
-  }
-  
-  .pagina-inicial .frame-13 {
-    position: absolute;
-    width: 1204px;
-    height: 98px;
-    top: 79px;
-    left: 118px;
-  }
-  
-  .pagina-inicial .nossos-parceiros-wrapper {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    position: absolute;
-    top: 0;
-    left: 126px;
-  }
-  
-  .pagina-inicial .saiba-quem-nos-apoia {
-    position: absolute;
-    width: 826px;
-    height: 24px;
-    top: 73px;
-    left: 190px;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: var(--systemgrey-600);
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    line-height: normal;
-  }
-  
-  .pagina-inicial .frame-14 {
-    position: absolute;
-    width: 1198px;
-    height: 379px;
-    top: 210px;
-    left: 121px;
-  }
-  
-  .pagina-inicial .frame-15 {
-    position: relative;
-    width: 1054px;
-    height: 323px;
-    top: 28px;
-    left: 72px;
-  }
-  
-  .pagina-inicial .icon-lucide-icon {
-    left: 0;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 136px;
-  }
-  
-  .pagina-inicial .client-review {
-    display: flex;
-    flex-direction: column;
-    width: 414px;
-    height: 323px;
-    align-items: center;
-    justify-content: center;
-    gap: 27px;
-    padding: 10px;
-    position: absolute;
-    top: 0;
-    left: 92px;
-  }
-  
-  .pagina-inicial .vagas-positivo-wrapper {
-    padding: 256px 674px;
-    display: flex;
-    width: 366px;
-    height: 287px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    position: relative;
-    background-color: #dfe2ec;
-    border-radius: 20px;
-  }
-  
-  .pagina-inicial .vagas-positivo {
-    position: relative;
-    width: 225px;
-    height: 78px;
-    margin-top: -151.5px;
-    margin-bottom: -151.5px;
-    margin-left: -603.5px;
-    margin-right: -603.5px;
-    object-fit: cover;
-  }
-  
-  .pagina-inicial .client-review-2 {
-    display: flex;
-    flex-direction: column;
-    width: 414px;
-    height: 323px;
-    align-items: center;
-    justify-content: center;
-    gap: 27px;
-    padding: 10px;
-    position: absolute;
-    top: 0;
-    left: 548px;
-  }
-  
-  .pagina-inicial .logo-wrapper {
-    padding: 98px 137px;
-    display: flex;
-    width: 366px;
-    height: 287px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    position: relative;
-    background-color: #dfe2ec;
-    border-radius: 20px;
-  }
-  
-  .pagina-inicial .logo {
-    position: relative;
-    width: 320px;
-    height: 75px;
-    margin-left: -114px;
-    margin-right: -114px;
-    object-fit: cover;
-  }
-  
-  .pagina-inicial .icon-lucide-icon-2 {
-    left: 1004px;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 136px;
-  }
-  
-  .pagina-inicial .FAQS {
-    position: absolute;
-    width: 1332px;
-    height: 720px;
-    top: 4049px;
-    left: 56px;
-    background-color: #3563e917;
-    border-radius: 20px;
-  }
-  
-  .pagina-inicial .frame-16 {
-    display: flex;
-    flex-direction: column;
-    width: 1200px;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    position: absolute;
-    top: 80px;
-    left: 120px;
-  }
-  
-  .pagina-inicial .aqui-teremos {
-    position: relative;
-    width: 839px;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: var(--systemgrey-600);
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    line-height: 28px;
-  }
-  
-  .pagina-inicial .frame-17 {
-    position: absolute;
-    width: 1200px;
-    height: 388px;
-    top: 252px;
-    left: 120px;
-  }
-  
-  .pagina-inicial .accordion {
-    display: flex;
-    width: 843px;
-    height: 68px;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 15px;
-    position: absolute;
-    top: 0;
-    left: 179px;
-    background-color: #ffffff;
-    box-shadow: inset 0px -1px 0px #00000026;
-  }
-  
-  .pagina-inicial .adipiscing {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Inter-Medium", Helvetica;
-    font-weight: 500;
-    color: #000000;
-    font-size: 20px;
-    letter-spacing: 0.2px;
-    line-height: 28px;
-    white-space: nowrap;
-  }
-  
-  .pagina-inicial .img-2 {
-    position: relative;
-    width: 24px;
-    height: 24px;
-  }
-  
-  .pagina-inicial .overlap-group-4 {
-    position: absolute;
-    width: 843px;
-    height: 68px;
-    top: 68px;
-    left: 178px;
-  }
-  
-  .pagina-inicial .component {
-    flex-direction: column;
-    gap: 24px;
-    top: 0;
-    left: 0;
-    display: flex;
-    width: 843px;
-    align-items: center;
-    padding: 20px 15px;
-    position: absolute;
-    background-color: #ffffff;
-    box-shadow: inset 0px -1px 0px #00000026;
-  }
-  
-  .pagina-inicial .frame-18 {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-  
-  .pagina-inicial .tincidunt-dolor-id {
-    position: relative;
-    flex: 1;
-    margin-top: -1px;
-    font-family: "Inter-Medium", Helvetica;
-    font-weight: 500;
-    color: #000000;
-    font-size: 20px;
-    letter-spacing: 0.2px;
-    line-height: 28px;
-  }
-  
-  .pagina-inicial .icon-feather-icon-6 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 22px;
-    left: 804px;
-  }
-  
-  .pagina-inicial .component-2 {
-    justify-content: space-between;
-    top: 136px;
-    left: 179px;
-    display: flex;
-    width: 843px;
-    align-items: center;
-    padding: 20px 15px;
-    position: absolute;
-    background-color: #ffffff;
-    box-shadow: inset 0px -1px 0px #00000026;
-  }
-  
-  .pagina-inicial .component-3 {
-    justify-content: space-between;
-    top: 272px;
-    left: 178px;
-    display: flex;
-    width: 843px;
-    align-items: center;
-    padding: 20px 15px;
-    position: absolute;
-    background-color: #ffffff;
-    box-shadow: inset 0px -1px 0px #00000026;
-  }
-  
-  .pagina-inicial .component-4 {
-    justify-content: space-between;
-    top: 204px;
-    left: 179px;
-    display: flex;
-    width: 843px;
-    align-items: center;
-    padding: 20px 15px;
-    position: absolute;
-    background-color: #ffffff;
-    box-shadow: inset 0px -1px 0px #00000026;
-  }
-  
-  .pagina-inicial .footer {
-    position: absolute;
-    width: 1380px;
-    height: 377px;
-    top: 4799px;
-    left: 32px;
-    background-color: var(--lightprimaryorigin);
-    border-radius: 20px;
-  }
-  
-  .pagina-inicial .frame-19 {
-    display: flex;
-    width: 415px;
-    align-items: flex-start;
-    gap: 116px;
-    position: absolute;
-    top: 24px;
-    left: 91px;
-  }
-  
-  .pagina-inicial .frame-20 {
-    position: relative;
-    width: 99px;
-    height: 222px;
-  }
-  
-  .pagina-inicial .product {
-    position: absolute;
-    top: -2px;
-    left: -1px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: var(--white);
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 28px;
-    white-space: nowrap;
-    border-color: var(--white);
-  }
-  
-  .pagina-inicial .frame-21 {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 13px;
-    position: absolute;
-    top: 43px;
-    left: 0;
-  }
-  
-  .pagina-inicial .employee-database {
-    position: relative;
-    width: fit-content;
-    margin-top: -2px;
-    margin-left: -1px;
-    opacity: 0.7;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: var(--white);
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-    border-color: var(--white);
-  }
-  
-  .pagina-inicial .text-wrapper-16 {
-    position: relative;
-    width: fit-content;
-    margin-left: -1px;
-    opacity: 0.7;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: var(--white);
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-    border-color: var(--white);
-  }
-  
-  .pagina-inicial .frame-22 {
-    position: relative;
-    width: 159px;
-    height: 107px;
-  }
-  
-  .pagina-inicial .company {
-    position: absolute;
-    width: 159px;
-    top: -2px;
-    left: -1px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: var(--white);
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 28px;
-    border-color: var(--white);
-  }
-  
-  .pagina-inicial .frame-23 {
-    display: flex;
-    flex-direction: column;
-    width: 159px;
-    height: 115px;
-    align-items: flex-start;
-    gap: 12px;
-    position: absolute;
-    top: 43px;
-    left: 0;
-  }
-  
-  .pagina-inicial .about-us {
-    position: relative;
-    width: 190px;
-    margin-top: -2px;
-    margin-left: -1px;
-    margin-right: -30px;
-    opacity: 0.7;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: var(--white);
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-    border-color: var(--white);
-  }
-  
-  .pagina-inicial .careers {
-    position: relative;
-    width: 189px;
-    margin-left: -1px;
-    margin-right: -29px;
-    opacity: 0.7;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: var(--white);
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-    border-color: var(--white);
-  }
-  
-  .pagina-inicial .frame-24 {
-    position: absolute;
-    width: 340px;
-    height: 224px;
-    top: 23px;
-    left: 949px;
-    background-color: var(--lightprimarydarker);
-  }
-  
-  .pagina-inicial .frame-25 {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 18px;
-    position: relative;
-    top: 30px;
-    left: 42px;
-  }
-  
-  .pagina-inicial .learn-more {
-    position: relative;
-    width: 149px;
-    margin-top: -2px;
-    margin-left: -1px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: var(--white);
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 28px;
-    border-color: var(--white);
-  }
-  
-  .pagina-inicial .frame-26 {
-    display: flex;
-    width: 248px;
-    align-items: center;
-    gap: 56px;
-    padding: 0px 0px 0px 15px;
-    position: relative;
-    flex: 0 0 auto;
-    background-color: var(--white);
-    border-radius: 6px;
-    border: 1px solid;
-    border-color: var(--systemgrey-350);
-  }
-  
-  .pagina-inicial .label {
-    position: relative;
-    flex: 1;
-    margin-left: -1px;
-    opacity: 0.6;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: var(--systemgrey-800);
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: normal;
-    border-color: var(--white);
-  }
-  
-  .pagina-inicial .icon-lucide-icon-wrapper {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 13px;
-    position: relative;
-    flex: 0 0 auto;
-    background-color: var(--lightprimaryorigin);
-    border-radius: 0px 6px 6px 0px;
-  }
-  
-  .pagina-inicial .hello-we-are-flair {
-    position: relative;
-    width: 254px;
-    height: 41px;
-    opacity: 0.7;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: var(--white);
-    font-size: 13px;
-    letter-spacing: 0;
-    line-height: 20.4px;
-  }
-  
-  .pagina-inicial .divider {
-    position: absolute;
-    width: 1203px;
-    height: 4px;
-    top: 270px;
-    left: 86px;
-    background-color: var(--white);
-    border: 1px solid;
-    opacity: 0.06;
-    border-color: var(--white);
-  }
-  
-  .pagina-inicial .frame-27 {
-    position: absolute;
-    width: 1200px;
-    height: 53px;
-    top: 291px;
-    left: 88px;
-  }
-  
-  .pagina-inicial .prancheta-cpia {
-    position: absolute;
-    width: 126px;
-    height: 61px;
-    top: 0;
-    left: -29px;
-    object-fit: cover;
-  }
-  
-  .pagina-inicial .frame-28 {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 36px;
-    position: absolute;
-    top: 220px;
-    left: 595px;
-  }
-  
-  /*
-  .pagina-inicial .pricing {
-    position: relative;
-    width: fit-content;
-    margin-top: -2px;
-    margin-left: -1px;
-    font-family: "Inter-Medium", Helvetica;
-    font-weight: 500;
-    color: var(--white);
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: normal;
-    border-color: var(--white);
-  }
-  */
+.pagina-inicial .overlap-wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-  .pagina-inicial .pricing-2 {
-    position: relative;
-    width: fit-content;
-    margin-top: -2px;
-    font-family: "Inter-Medium", Helvetica;
-    font-weight: 500;
-    color: var(--white);
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: normal;
-    border-color: var(--white);
-  }
-  
-  .pagina-inicial .frame-29 {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 15px;
-    position: absolute;
-    top: 133px;
-    left: 595px;
-  }
-  
-  .pagina-inicial .group-9 {
-    position: relative;
-    width: 35px;
-    height: 35px;
-  }
-  
+.pagina-inicial .overlap {
+  position: relative;
+  width: 100%;
+}
 
-  
-  .pagina-inicial .facebook {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    top: 8px;
-    left: 9px;
-  }
-  
-  .pagina-inicial .group-10 {
-    height: 35px;
-  }
-  
- 
-  
-  .pagina-inicial .instagram {
-    position: relative;
-    width: 36.5px;
-    height: 36.5px;
-    margin-top: -0.75px;
-    margin-bottom: -0.75px;
-    margin-right: -0.75px;
-  }
-  
-  .pagina-inicial .group-12 {
-    position: absolute;
-    width: 267px;
-    height: 52px;
-    top: 24px;
-    left: 595px;
-  }
-  
-  .pagina-inicial .frame-30 {
-    top: 0;
-    left: 139px;
-    background-color: #ffffff;
-    border-color: #3563e9;
-    display: flex;
-    width: 128px;
-    align-items: center;
-    justify-content: center;
-    gap: 1px;
-    padding: 14px 16px;
-    position: absolute;
-    border-radius: 20px;
-    border: 1px solid;
-  }
-  
-  .pagina-inicial .text-wrapper-17 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    margin-left: -0.5px;
-    margin-right: -0.5px;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #3563e9;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 24px;
-    white-space: nowrap;
-  }
-  
-  /*
-  .pagina-inicial .frame-31 {
-    background-color: #ffffff;
-    border-color: #3563e9;
-    display: flex;
-    width: 128px;
-    align-items: center;
-    justify-content: center;
-    gap: 1px;
-    padding: 14px 16px;
-    position: absolute;
-    top: 0;
-    left: 139px;
-    border-radius: 20px;
-    border: 1px solid;
-  }
-  */
+.pagina-inicial .frame {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
 
-  .pagina-inicial .frame-32 {
-    top: 3252px;
-    left: 56px;
-    border-color: transparent;
-    background: linear-gradient(180deg, rgba(53, 99, 233, 0.5) 0%, rgba(53, 99, 233, 0.22) 100%);
-    display: flex;
-    width: 128px;
-    align-items: center;
-    justify-content: center;
-    gap: 1px;
-    padding: 14px 16px;
-    position: absolute;
-    border-radius: 20px;
-    border: 1px solid;
-  }
-  
+.pagina-inicial .logo-ativa-idade {
+  width: 150px;
+  height: auto;
+}
+
+.pagina-inicial .menu {
+  display: flex;
+  gap: 32px;
+}
+
+.pagina-inicial .text-wrapper {
+  font-weight: 700;
+  color: #3563e9;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pagina-inicial .group {
+  display: flex;
+  gap: 16px;
+}
+
+.pagina-inicial .div-wrapper,
+.pagina-inicial .frame-2 {
+  background-color: #3563e9;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.pagina-inicial .text-wrapper-2,
+.pagina-inicial .text-wrapper-3 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.pagina-inicial .banner {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background-image: url('./img/pexels-16647512-1.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.pagina-inicial .overlap-group-wrapper {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.pagina-inicial .overlap-2 {
+  position: relative;
+  width: 50px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+.pagina-inicial .group-2,
+.pagina-inicial .group-3,
+.pagina-inicial .group-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.pagina-inicial .text-wrapper-4 {
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+}
+
+.pagina-inicial .overlap-4 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(53, 99, 233, 0.8);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.pagina-inicial .somos-a-ativa-idade {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.pagina-inicial .premium {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.pagina-inicial .div-2 {
+  width: 48%;
+  background-color: rgba(53, 99, 233, 0.1);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.pagina-inicial .text-wrapper-10 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #212121;
+  text-align: center;
+}
+
+.pagina-inicial .acesse-nossas-vagas,
+.pagina-inicial .conhe-a-nossos {
+  font-size: 18px;
+  font-weight: 600;
+  color: #757575;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.pagina-inicial .frame-7,
+.pagina-inicial .overlap-group-3 {
+  background: linear-gradient(180deg, rgba(53, 99, 233, 0.5) 0%, rgba(53, 99, 233, 0.22) 100%);
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.pagina-inicial .text-wrapper-12 {
+  color: #3563e9;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.pagina-inicial .frame-4,
+.pagina-inicial .frame-8 {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.pagina-inicial .quem-somos,
+.pagina-inicial .div-3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #212121;
+}
+
+.pagina-inicial .saiba-como-surgiu-a,
+.pagina-inicial .a-nossa-miss-o {
+  font-size: 18px;
+  font-weight: 600;
+  color: #757575;
+  margin-top: 10px;
+}
+
+.pagina-inicial .image,
+.pagina-inicial .clients {
+  background-color: rgba(53, 99, 233, 0.1);
+  padding: 40px;
+  border-radius: 20px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.pagina-inicial .a-ativa-idade-foi {
+  font-size: 18px;
+  font-weight: 400;
+  color: #616161;
+  text-align: left;
+}
+
+.pagina-inicial .group-6 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.pagina-inicial .agenda-cultural {
+  font-size: 32px;
+  font-weight: 700;
+  color: #212121;
+}
+
+.pagina-inicial .programacao,
+.pagina-inicial .encontre-os-melhores {
+  font-size: 18px;
+  font-weight: 600;
+  color: #757575;
+}
+
+.pagina-inicial .FAQS {
+  background-color: rgba(53, 99, 233, 0.1);
+  padding: 40px;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.pagina-inicial .aqui-teremos {
+  font-size: 18px;
+  font-weight: 600;
+  color: #757575;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.pagina-inicial .accordion {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.pagina-inicial .adipiscing {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.pagina-inicial .footer {
+  background-color: #3563e9;
+  padding: 40px;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin: 40px 0;
+}
+
+.pagina-inicial .frame-19,
+.pagina-inicial .frame-20,
+.pagina-inicial .frame-21,
+.pagina-inicial .frame-22,
+.pagina-inicial .frame-23,
+.pagina-inicial .frame-24,
+.pagina-inicial .frame-25,
+.pagina-inicial .frame-26,
+.pagina-inicial .frame-27,
+.pagina-inicial .frame-28,
+.pagina-inicial .frame-29,
+.pagina-inicial .frame-30 {
+  margin: 10px 0;
+}
+
+.pagina-inicial .product,
+.pagina-inicial .company,
+.pagina-inicial .learn-more {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.pagina-inicial .employee-database,
+.pagina-inicial .text-wrapper-16,
+.pagina-inicial .about-us,
+.pagina-inicial .careers,
+.pagina-inicial .pricing-2 {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.pagina-inicial .label {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.pagina-inicial .hello-we-are-flair {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.pagina-inicial .divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 20px 0;
+}
+
+.pagina-inicial .linkedin,
+.pagina-inicial .facebook,
+.pagina-inicial .instagram {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.pagina-inicial .frame-30 .text-wrapper-17 {
+  color: #3563e9;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+
+.pagina-inicial .frame-30 .div {
+  color: #3563e9;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
