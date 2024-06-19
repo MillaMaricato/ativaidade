@@ -45,7 +45,7 @@ body {
   cursor: pointer;
 }
 
-.div-wrapper {
+.button {
   background-color: #3563e9;
   color: #fff;
 }
@@ -324,21 +324,18 @@ body {
   font-size: 14px;
 }
 
-.group-3 {
+.group-3 .button {
   display: flex;
   gap: 10px;
+  background-color: #3563e9;
+  color: #fff;
 }
 
-.group-3 .div-wrapper, .group-3 .frame-10 {
+.group-3 .div-wrapper, .group-3 {
   padding: 14px 16px;
   border-radius: 20px;
   border: 1px solid #3563e9;
   background-color: #fff;
   color: #3563e9;
   cursor: pointer;
-}
-
-.group-3 .div-wrapper {
-  background-color: #3563e9;
-  color: #fff;
 }
