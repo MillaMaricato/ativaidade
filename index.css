@@ -1,343 +1,553 @@
+/* Estilos gerais */
 body {
   font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.pagina-inicial {
+/* Menu superior */
+nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  background-color: #f0f0f0;
-}
-
-.pagina-inicial .overlap-wrapper {
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.pagina-inicial .overlap {
-  position: relative;
-  width: 100%;
-}
-
-.pagina-inicial .frame {
-  display: flex;
-  width: 100%;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
-  background-color: #ffffff;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-}
-
-.pagina-inicial .logo-ativa-idade {
-  width: 150px;
-  height: auto;
-}
-
-.pagina-inicial .menu {
-  display: flex;
-  gap: 32px;
-}
-
-.pagina-inicial .text-wrapper {
-  font-weight: 700;
-  color: #3563e9;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.pagina-inicial .group {
-  display: flex;
-  gap: 16px;
-}
-
-.pagina-inicial .div-wrapper,
-.pagina-inicial .frame-2 {
-  background-color: #3563e9;
+  background-color: #fff; 
   padding: 10px 20px;
-  border-radius: 20px;
-  cursor: pointer;
 }
 
-.pagina-inicial .text-wrapper-2,
-.pagina-inicial .text-wrapper-3 {
-  color: #ffffff;
-  font-weight: 600;
-  font-size: 16px;
-}
-
-.pagina-inicial .banner {
-  position: relative;
-  width: 100%;
-  height: 700px;
-  background-image: url('./img/pexels-16647512-1.png');
-  background-size: cover;
-  background-position: center;
-  border-radius: 20px;
-  margin: 20px 0;
-}
-
-.pagina-inicial .overlap-group-wrapper {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-
-.pagina-inicial .overlap-2 {
-  position: relative;
-  width: 50px;
-  padding: 10px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 10px;
-}
-
-.pagina-inicial .group-2,
-.pagina-inicial .group-3,
-.pagina-inicial .group-4 {
+nav ul {
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 10px;
-  margin-bottom: 10px;
-  cursor: pointer;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.pagina-inicial .text-wrapper-4 {
-  color: #000000;
-  font-size: 15px;
-  text-align: center;
+nav ul img {
+  margin-right: 20px;
 }
 
-.pagina-inicial .overlap-4 {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  background-color: rgba(53, 99, 233, 0.8);
-  padding: 20px;
-  border-radius: 20px;
-}
-
-.pagina-inicial .somos-a-ativa-idade {
-  color: #ffffff;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-.pagina-inicial .premium {
+.menu {
   display: flex;
-  justify-content: space-between;
-  margin: 20px 0;
+  align-items: center;
 }
 
-.pagina-inicial .div-2 {
-  width: 48%;
-  background-color: rgba(53, 99, 233, 0.1);
-  padding: 40px;
-  border-radius: 20px;
+.menu li {
+  margin: 0 10px;
 }
 
-.pagina-inicial .text-wrapper-10 {
-  font-size: 32px;
-  font-weight: 700;
-  color: #212121;
-  text-align: center;
+.menu li a {
+  color: #0044cc;
+  text-decoration: none;
+  font-weight: 500;
 }
 
-.pagina-inicial .acesse-nossas-vagas,
-.pagina-inicial .conhe-a-nossos {
-  font-size: 18px;
-  font-weight: 600;
-  color: #757575;
-  text-align: center;
-  margin: 20px 0;
+.group {
+  display: flex;
+  align-items: center;
+  height: 38px;
+  justify-content: flex-start;
+  margin: 0 0 0 38px;
 }
 
-.pagina-inicial .frame-7,
-.pagina-inicial .overlap-group-3 {
-  background: linear-gradient(180deg, rgba(53, 99, 233, 0.5) 0%, rgba(53, 99, 233, 0.22) 100%);
-  padding: 10px 20px;
-  border-radius: 20px;
+.group .text-wrapper-2,
+.group .text-wrapper-3 {
+  margin: 0 10px;
+  color: #fff;
   cursor: pointer;
-  text-align: center;
-}
-
-.pagina-inicial .text-wrapper-12 {
-  color: #3563e9;
-  font-weight: 600;
-  font-size: 16px;
-}
-
-.pagina-inicial .frame-4,
-.pagina-inicial .frame-8 {
-  text-align: center;
-  margin: 40px 0;
-}
-
-.pagina-inicial .quem-somos,
-.pagina-inicial .div-3 {
-  font-size: 32px;
-  font-weight: 700;
-  color: #212121;
-}
-
-.pagina-inicial .saiba-como-surgiu-a,
-.pagina-inicial .a-nossa-miss-o {
-  font-size: 18px;
-  font-weight: 600;
-  color: #757575;
-  margin-top: 10px;
-}
-
-.pagina-inicial .image,
-.pagina-inicial .clients {
-  background-color: rgba(53, 99, 233, 0.1);
-  padding: 40px;
+  background-color: #0044cc;
+  margin: 0 0 0 38px;
+  padding: 0 22px;
   border-radius: 20px;
-  margin: 20px 0;
-  text-align: center;
 }
 
-.pagina-inicial .a-ativa-idade-foi {
-  font-size: 18px;
-  font-weight: 400;
-  color: #616161;
+/* Banner */
+.banner {
+  position: relative;
+  text-align: center;
+  background-color: #f2f2f2; 
+  width: 100%;
+}
+
+.overlap-4 {
+  background-color: #0044cc;
+  width: 100%;
+  position: relative;
+  top: -25px;
   text-align: left;
 }
 
-.pagina-inicial .group-6 {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 0;
-}
-
-.pagina-inicial .agenda-cultural {
-  font-size: 32px;
+.somos-a-ativa-idade {
+  font-size: 30px;
   font-weight: 700;
-  color: #212121;
-}
-
-.pagina-inicial .programacao,
-.pagina-inicial .encontre-os-melhores {
-  font-size: 18px;
-  font-weight: 600;
-  color: #757575;
-}
-
-.pagina-inicial .FAQS {
-  background-color: rgba(53, 99, 233, 0.1);
-  padding: 40px;
-  border-radius: 20px;
-  margin: 20px 0;
-}
-
-.pagina-inicial .aqui-teremos {
-  font-size: 18px;
-  font-weight: 600;
-  color: #757575;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.pagina-inicial .accordion {
-  display: flex;
-  justify-content: space-between;
+  color: #fff;
+  background-color: #0044cc;
+  margin: 30px 0 20px 20px;
+  position: absolute;
+  z-index: 1;
   padding: 20px;
-  background-color: #ffffff;
+  margin: 20px;
+  text-align: left;
+  border-radius: 15px;
+}
+
+.group-3 {
+  display: inline-block;
+  margin: 20px;
+}
+
+.overlap-3 {
+  position: relative;
+}
+
+.icon-feather-icon, .icon-feather-icon-2 {
+  display: block;
+  margin: 10px auto;
+}
+
+.text-wrapper-4 {
+  font-size: 20px;
+  color: #333;
+}
+
+.vector, .mao {
+  display: block;
+  margin: 10px auto;
+}
+
+/* Vagas e Curso Profissionalizante */
+
+.box-premium {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 3.0rem;
+  display: flex;
+}
+
+.box-premium .overlap-6, .box-premium .group-7 {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
   border-radius: 10px;
-  margin: 10px 0;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #e6e6e6;
+}
+
+.box-premium .frame-7, .overlap-6 .frame-7 {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #0044cc;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-.pagina-inicial .adipiscing {
-  font-size: 20px;
-  font-weight: 500;
-  color: #000000;
+.box-premium .frame-7 {
+  display: block;
+  margin-top: auto;
+  padding: 10px 20px;
+  background-color: #0044cc;
+  color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
 }
 
-.pagina-inicial .footer {
-  background-color: #3563e9;
-  padding: 40px;
-  color: #ffffff;
+.text-wrapper-10 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.text-wrapper-11 {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Quem somos */
+.frame-4 {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.quem-somos {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+}
+
+.como-surgiu {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+
+/* Quem somos */
+
+.group-5 {
+  padding: 20px 0 20px 0;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.a-ativa-idade-foi-1 {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  text-align: left;
+  margin: 30px 100px 30px 100px;
+}
+
+.a-ativa-idade-foi-2 {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  text-align: left;
+  margin: 30px 100px 30px 100px;
+}
+
+/* Nossos valores */
+
+.frame-9 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  border-radius: 20px;
-  margin: 40px 0;
+  text-align: center;
+  justify-content: center;
 }
 
-.pagina-inicial .frame-19,
-.pagina-inicial .frame-20,
-.pagina-inicial .frame-21,
-.pagina-inicial .frame-22,
-.pagina-inicial .frame-23,
-.pagina-inicial .frame-24,
-.pagina-inicial .frame-25,
-.pagina-inicial .frame-26,
-.pagina-inicial .frame-27,
-.pagina-inicial .frame-28,
-.pagina-inicial .frame-29,
-.pagina-inicial .frame-30 {
-  margin: 10px 0;
+.frame-11 {
+  width: 250px;
+  height: 100%;
+  margin-left: 10px;
+  margin: 20px 20px;
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
 }
 
-.pagina-inicial .product,
-.pagina-inicial .company,
-.pagina-inicial .learn-more {
+.frame-8, .frame-9 {
+  padding: 20px 0 40px 20px;
+  text-align: center;
+}
+
+.nossos-valores {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+}
+
+.nossa-missao {
   font-size: 16px;
-  font-weight: 700;
-  margin-bottom: 10px;
+  color: #666;
+  margin-top: 10px;
 }
 
-.pagina-inicial .employee-database,
-.pagina-inicial .text-wrapper-16,
-.pagina-inicial .about-us,
-.pagina-inicial .careers,
-.pagina-inicial .pricing-2 {
-  font-size: 16px;
-  opacity: 0.7;
+.avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: var(--light-primary-a8, #EFF3FD);
 }
 
-.pagina-inicial .label {
+.frame-12 {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.frame-9 .text-wrapper-13 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.text-wrapper-14 {
   font-size: 14px;
-  opacity: 0.6;
+  color: #666;
 }
 
-.pagina-inicial .hello-we-are-flair {
-  font-size: 13px;
-  opacity: 0.7;
+/* Agenda cultural */
+
+.agenda {
+  display: flex;
+  flex-direction: row;
 }
 
-.pagina-inicial .divider {
-  width: 100%;
-  height: 1px;
-  background-color: rgba(255, 255, 255, 0.5);
+.agenda-cultural {
+  display: block;
+  text-align: left;
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin: 100px 0px 0px 50px;
+}
+
+.programacao {
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  color: #666;
+  margin: 190px 0px 0px -170px;
+}
+
+.encontre-os-melhores {
+  margin: 30px 100px 30px 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: left;
+}
+
+.balada img {
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  height: 400px;
+  flex-shrink: 0;
+  background: lightgray 50% / cover no-repeat;
+  margin: 0 0 50px 0;
+}
+
+.box-premium .frame-7 .encontre-os-melhores {
+  display: block;
+  margin-top: auto;
+  padding: 10px 20px;
+  background-color: #0044cc;
+  color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 20px 0;
+  margin: 30px 100px 30px 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: left;
+}
+
+/* Nossos parceiros */
+
+.clients {
+  display: block;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
   margin: 20px 0;
 }
 
-.pagina-inicial .linkedin,
-.pagina-inicial .facebook,
-.pagina-inicial .instagram {
+.quem-nos-apoia {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+}
+
+.client-review {
+  margin: 20px;
+  text-align: center;
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.client-review img {
+  height: auto;
+  width: auto;
+  margin-left: 10px;
+  margin: 20px 20px;
+  display: inline-block;
+  background-color: #f9f9f9;
+  padding: 40px 40px 40px 40px;
+  border-radius: 5px;
+}
+
+/* Dúvidas frequentes */
+
+.duvidas {
+  padding: 40px 0 40px 0;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: auto;
+}
+
+.duvidas .text-wrapper-13 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  padding: 20px;
+  background-color: #fff;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.text-wrapper-7 {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+}
+
+.FAQS {
+  display: block;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin: 20px 0;
+}
+
+.accordion, .text-wrapper-13:hover {
+  background-color: #f4f4f4;
+  width: auto;
+}
+
+.accordion p {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+
+/* Rodapé */
+footer {
+  background-color: #0044cc;
+  color: #fff;
+  padding: 20px 0;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section form label {
+  margin-bottom: 5px;
+}
+
+.footer-section form input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.footer-section form button {
+  padding: 10px;
+  background-color: #fff;
+  color: #0044cc;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #003399;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footer-bottom ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-bottom ul li {
+  margin: 0 10px;
+}
+
+.footer-bottom ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.frame-29 {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.group-9 {
+  margin: 0 10px;
+}
+
+.group-9 img {
   width: 35px;
   height: 35px;
   cursor: pointer;
 }
 
-.pagina-inicial .frame-30 .text-wrapper-17 {
-  color: #3563e9;
-  font-weight: 600;
-  font-size: 16px;
+.group-12 {
   text-align: center;
+  margin: 20px 0;
 }
 
-.pagina-inicial .frame-30 .div {
-  color: #3563e9;
-  font-weight: 600;
-  font-size: 16px;
-  text-align: center;
+.group-12 button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #0044cc;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
