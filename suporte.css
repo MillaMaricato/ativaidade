@@ -1,4 +1,5 @@
 /* Estilos gerais */
+
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
@@ -7,7 +8,24 @@ body {
   background-color: #f2f2f2; /* Cor de fundo geral */
 }
 
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 /* Menu superior */
+
 nav {
   display: flex;
   align-items: center;
@@ -29,8 +47,14 @@ nav ul img {
 }
 
 .menu {
+  font-size: 16px;
+  font-weight: bold;
   display: flex;
   align-items: center;
+}
+
+.menu__item, .menu__button { 
+  font-size: 16px;
 }
 
 .menu li {
@@ -38,9 +62,10 @@ nav ul img {
 }
 
 .menu li a {
+  font-size: 16px;
+  font-weight: bold;
   color: #0044cc;
   text-decoration: none;
-  font-weight: 500;
 }
 
 .group {
@@ -50,31 +75,32 @@ nav ul img {
   justify-content: flex-start;
   margin: 0 0 0 38px;
   gap: 8px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-.group .text-wrapper-2,
-.group .text-wrapper-3 {
+.menu__button {
   color: #fff;
   cursor: pointer;
   background-color: #0044cc;
-  padding: 0 22px;
-  border-radius: 20px;
+  padding: 15px;
+  border-radius: 5px;
 }
 
 /* Banner */
-.banner-img {
-  position: relative;
-  text-align: center;
-  background-color: #f2f2f2; 
-  width: 100%;
-  object-fit: cover;
-}
+
+.banner__img {
+    width: 100%;
+    object-fit: cover;
+  }
 
 .overlap-4 {
   background-color: #0044cc;
   position: relative;
   top: -25px;
   text-align: left;
+  width: 100%;
+  object-fit: cover;
 }
 
 .somos-a-ativa-idade {
@@ -116,20 +142,39 @@ nav ul img {
 
 
 /* Formulário */
+
+.form-titulo {
+  margin: 0px 0px 40px 0px;
+}
+
+.form {
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  max-width: 60%;
+  display: grid;
+}
+
+.form-button {
+  padding: 10px 20px;
+  background-color: #0044cc;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  align-self: baseline;
+  margin: 15px 0px 0px 0px;
+}
+
+/*
+
 .wireframe {
   display: block;
   text-align: center;
   font-size: 24px;
   margin: 20px 0;
-}
-
-.form {
-  width: 60%;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #e6e6e6;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .text-wrapper {
@@ -148,10 +193,6 @@ nav ul img {
   padding: 5px 0;
 }
 
-.button {
-  text-align: center;
-}
-
 .button button {
   padding: 10px 20px;
   background-color: #0044cc;
@@ -168,9 +209,54 @@ nav ul img {
   margin: 20px 0;
   color: #000;
 }
+*/
 
 /* Dúvidas Frequentes */
-.duvidas-frequentes {
+
+.accordion {
+  border-radius: 0px;
+}
+
+.accordion, .text-wrapper-13:hover {
+  width: 60%;
+  margin: 50px 0px 0px 0px;
+}
+
+.text-wrapper-7 {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+}
+
+.accordion-button, .accordion-item {
+  font-size: 16px;
+  color: #000;
+}
+
+.duvidas {
+  padding: 40px 0 40px 0;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: auto;
+}
+
+/*
+.duvidas .text-wrapper-13 {
+  font-size: 18px;
+  color: #333;
+  padding: 20px;
+  background-color: #fff;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.FAQS {
   display: block;
   text-align: center;
   font-size: 28px;
@@ -179,32 +265,25 @@ nav ul img {
   margin: 20px 0;
 }
 
-.text-wrapper-9 {
-  text-align: center;
+.accordion, .text-wrapper-13:hover {
+  background-color: #f4f4f4;
+  width: auto;
+}
+
+.accordion p {
   font-size: 16px;
-  color: #666;
-}
-
-.frame-12 {
-  padding: 20px;
-  background-color: #fff;
+  color: #333;
   margin: 10px 0;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
 }
 
-.frame-12 p {
-  margin: 0;
-}
-
-.img {
-  width: 20px;
-  height: 20px;
-  margin-left: 10px;
-  vertical-align: middle;
-}
+*/
 
 /* Rodapé */
+
 footer {
   background-color: #0044cc;
   color: #fff;
