@@ -655,3 +655,26 @@ nav ul img {
   font-size: 16px;
   font-weight: bold;
 }
+
+-------------------------------
+
+/* Media Queries */
+
+Mobile: @media only screen and (min-width: 0px) and (max-width: 480px) {
+  grid-auto-columns: 1fr;
+
+}
+
+Tablet: @media only screen and (min-width: 481px) and (max-width: 768px) {
+  grid-auto-columns: 2fr;
+
+}
+
+Laptop: @media only screen and (min-width: 769px) and (max-width: 1279px) {
+  grid-auto-columns: 3fr;
+  
+}
+
+Desktop: @media only screen and (min-width: 1280px) {
+
+}
