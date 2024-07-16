@@ -666,26 +666,51 @@ Desktop: @media only screen and (min-width: 1280px)
 
 @media screen and (max-width: 1020px) {
 
-/* classes gerais */
-.media {
-    flex-direction: column;
-    align-items: center;
-  }
+/* rodapé */
 
-.media, .agenda {
-    flex-direction: column-reverse;
-  }
+.footer-bottom {
+  display: inline-grid;
+}
+
+.frame-27 img {
+  
+}
 
 /* dúvidas */
 
 .accordion {
-  width: 100%;
+  width: 90%;
+}
+
+/* parceiros */
+
+.carousel-inner {
+    width: 200%;
+    margin: 0 auto;
+
+/* agenda */
+
+.media {
+  flex-direction: column;
+  align-items: center;
+}
+
+.media, .agenda {
+  flex-direction: column-reverse;
+}
+
+
+/* valores */
+
+. {
+
 }
 
 /* quem somos */
 
 .a-ativa-idade-foi-1 {
-  padding: 10px 8%;
+  margin: 0 auto;
+  max-width: 300px;
 }
 
 .group-5 {
