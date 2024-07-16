@@ -211,9 +211,6 @@ nav ul img {
   margin-top: 10px;
 }
 
-
-/* Quem somos */
-
 .group-5 {
   padding: 20px 0 20px 0;
   background-color: #f9f9f9;
@@ -658,23 +655,67 @@ nav ul img {
 
 -------------------------------
 
-/* Media Queries */
+/* Media Queries 
 
-Mobile: @media only screen and (min-width: 0px) and (max-width: 480px) {
-  grid-auto-columns: 1fr;
+Mobile: @media only screen and (min-width: 0px) and (max-width: 480px) 
+Tablet: @media only screen and (min-width: 481px) and (max-width: 768px) 
+Laptop: @media only screen and (min-width: 769px) and (max-width: 1279px) 
+Desktop: @media only screen and (min-width: 1280px) 
+
+*/
+
+@media screen and (max-width: 1020px) {
+
+/* classes gerais */
+.media {
+    flex-direction: column;
+    align-items: center;
+  }
+
+.media, .agenda {
+    flex-direction: column-reverse;
+  }
+
+/* dúvidas */
+
+.accordion {
+  width: 100%;
+}
+
+/* quem somos */
+
+.a-ativa-idade-foi-1 {
+  padding: 10px 8%;
+}
+
+.group-5 {
+  padding: 5px 0px 5px 0px;
+  margin: 0px;
+  display: grid;
+  justify-items: start;
+}
+
+/* vagas e curso */
+
+.box-premium {
+  gap: 0rem;
+}
+
+/* imagem */
+
+.banner__img {
+  width: 70%;
+}
+
+/* cabeçalho */
+
+.menu, .group {
+    display: none;
+  }
+
+.group {
+  gap: 5px;
+  }
 
 }
 
-Tablet: @media only screen and (min-width: 481px) and (max-width: 768px) {
-  grid-auto-columns: 2fr;
-
-}
-
-Laptop: @media only screen and (min-width: 769px) and (max-width: 1279px) {
-  grid-auto-columns: 3fr;
-  
-}
-
-Desktop: @media only screen and (min-width: 1280px) {
-
-}
