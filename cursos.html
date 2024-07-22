@@ -17,11 +17,12 @@
 
 <!-- MENU SUPERIOR -->
 
-        <nav>
+        <nav class="navbar-desktop">
             <img src="img/logo_ativa-idade 2.png" alt="logo Ativa Idade com as cores azul e preto" width="118" height="97"/>
             
             <ul class="menu">    
                 <li><a class="menu__item" href="index.html">Página inicial</a></li>
+                <li><a class="menu__item" href="index.html">Quem somos</a></li>
                 <li><a class="menu__item" href="vagas.html">Vagas</a></li>
                 <li><a class="menu__item" href="cursos.html">Cursos</a></li>
                 <li><a class="menu__item" href="index.html">Agenda</a></li>
@@ -35,6 +36,48 @@
 
         </nav>
 
+
+        <nav class="navbar bg-light fixed-top navbar-boostrap">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="img/logo_ativa-idade 2.png" alt="logo Ativa Idade com as cores azul e preto" width="90" height="70"/></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Página inicial</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="vagas.html">Vagas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="cursos.html">Cursos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="agenda.html">Agenda</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="suporte.html">Suporte</a>
+                      </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="cadastro">
+                    <button class="btn btn-outline-success" type="submit">Cadastre-se</button>
+                  </form>
+                  <form class="d-flex mt-3" role="entrar">
+                    <button class="btn btn-outline-success" type="submit">Entrar</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+    
+    
+
     
 <!-- CURSOS -->
 
@@ -45,113 +88,132 @@
             <p>O melhor conteúdo em um novo formato para os 50+</p>
         </section>
 
+
         <section class="courses">
             <div class="course-card">
-                <img src="img/cursos/Google Ads.png" alt="Google Ads" width="340" height="190"/>
+                <img href="https://skillshop.exceedlms.com/student/catalog/list?category_ids=407-google-ads" src="img/cursos/Google-Ads.png" alt="Google Ads" width="150" height="100"/>
                 <h2>Google Ads</h2>
                 <p>Desenvolva suas habilidades usando o Google Ads para promover sua empresa online e receba seu certificado em Google Ads.</p>
+                <a class="frame-7" href="https://skillshop.exceedlms.com/student/catalog/list?category_ids=407-google-ads">Clique aqui</a>
             </div>
 
             <div class="course-card">
-                <img src="img/Google Marketing Platform.png" alt="Google Marketing Platform" width="118" height="97"/>
+                <img src="img/cursos/Google-Marketing-Platform.png" alt="Google Marketing Platform" width="150" height="100"/>
                 <h2>Google Marketing Platform</h2>
                 <p>Saiba como alcançar seus objetivos de marketing e consiga sua certificação em Google Marketing Platform.</p>
+                <a class="frame-7" href="https://skillshop.exceedlms.com/student/catalog/list?category_ids=602-google-marketing-platform">Clique aqui</a>
             </div>
 
             <div class="course-card">
-                <img src="img/Google Analytics 4.png" alt="Google Analytics 4" width="118" height="97"/>
-                <h2>Google Analytics 4</h2>
+                <img src="img/cursos/Google-Analytics.png" alt="Google Analytics 4" width="150" height="100"/>
+                <h2>Google Analytics</h2>
                 <p>Descubra como a última geração do Google Analytics pode melhorar sua estratégia de métricas.</p>
+                <a class="frame-7" href="https://analytics.google.com/analytics/academy/course/6">Clique aqui</a>
             </div>
 
             <div class="course-card">
-                <img src="img/Universal Analytics.png" alt="Universal Analytics" width="118" height="97"/>
+                <img src="img/cursos/Universal-Analytics.png" alt="Universal Analytics" width="150" height="100"/>
                 <h2>Universal Analytics</h2>
                 <p>Acesse o programa de aprendizado se você já estiver usando o Universal Analytics. Caso esteja começando a usar o Google Analytics, saiba mais sobre o Google Analytics 4.</p>
+                <a class="frame-7" href="https://analytics.google.com/analytics/academy/">Clique aqui</a>
             </div>
 
             <div class="course-card">
-                <img src="img/YouTube.png" alt="YouTube" width="118" height="97"/>
+                <img src="img/cursos/YouTube.png" alt="YouTube" width="150" height="100"/>
                 <h2>YouTube</h2>
                 <p>Cursos para parceiros gerenciados empresariais, de música, mídia e Content ID.</p>
+                <a class="frame-7" href="https://skillshop.exceedlms.com/student/catalog/list?category_ids=695-youtube">Clique aqui</a>
             </div>
 
             <div class="course-card">
-                <img src="img/Google Ad Managerpng" alt="Google Ad Manager" width="118" height="97"/>
+                <img src="img/cursos/Google-Ad-Manager.png" alt="Google Ad Manager" width="150" height="100"/>
                 <h2>Google Ad Manager</h2>
                 <p>A Universidade do Editor agora faz parte da Skillshop. Confira o novo conteúdo e saiba como desenvolver sua proficiência com as ferramentas do Editor.</p>
+                <a class="frame-7" href="https://admanager.google.com/intl/pt-BR_br/home/">Clique aqui</a>
             </div>
 
             <div class="course-card">
-                <img src="img/Waze Fundamentals E-learning.png" alt="Waze Fundamentals E-learning" width="118" height="97"/>
+                <img src="img/cursos/Waze-Fundamentals-E-learning.png" alt="Waze Fundamentals E-learning" width="150" height="100"/>
                 <h2>Waze Fundamentals E-learning</h2>
                 <p>Descubra como transformar sua localização em um destino com o poder do Waze Ads.</p>
+                <a class="frame-7" href="https://skillshop.exceedlms.com/student/catalog/list?category_ids=2901-waze-fundamentals-e-learning">Clique aqui</a>
             </div>
 
             <div class="course-card">
-                <img src="img/Google AdMob.png" alt="Google AdMob" width="118" height="97"/>
+                <img src="img/cursos/Google-AdMob.png" alt="Google AdMob" width="150" height="100"/>
                 <h2>Google AdMob</h2>
                 <p>Gerencie seu inventário e gere receita com o Google AdMob.</p>
+                <a class="frame-7" href="https://admob.google.com/intl/pt-BR_br/home/">Clique aqui</a>
             </div>
 
             <div class="course-card">
-                <img src="img/iAuthorized Buyers.png" alt="Authorized Buyers" width="118" height="97"/>
+                <img src="img/cursos/Authorized-Buyers.png" alt="Authorized Buyers" width="150" height="100"/>
                 <h2>Authorized Buyers</h2>
-                <p>Saiba como dar os primeiros passos como Authorized Buyer e entenda o fluxo de trabalho do programa.</p>
+                <p>Inglês | Saiba como dar os primeiros passos como Authorized Buyer e entenda o fluxo de trabalho do programa.</p>
+                <a class="frame-7" href="https://www.classcentral.com/course/skillshop-authorized-buyers-api-basics-86253">Clique aqui</a>
             </div>
 
             <div class="course-card">
-                <img src="img/Google For Education.png" alt="Google For Education" width="118" height="97"/>
+                <img src="img/cursos/Google-For-Education.png" alt="Google For Education" width="150" height="100"/>
                 <h2>Google For Education</h2>
-                <p>Aproveite treinamentos selecionados para o desenvolvimento e sucesso de professores, estudantes e gestores de instituições de ensino fundamental, médio ou superior.</p>
+                <p>Inglês | Aproveite treinamentos selecionados para o desenvolvimento e sucesso de professores, estudantes e gestores de instituições de ensino fundamental, médio ou superior.</p>
+                <a class="frame-7" href="https://skillshop.exceedlms.com/student/catalog/list?category_ids=2559-google-for-education">Clique aqui</a>
             </div>
 
             <div class="course-card">
-                <img src="img/Google Marketing Platform.png" alt="Google Marketing Platform" width="118" height="97"/>
+                <img src="img/cursos/Google-Marketing-Platform.png" alt="Google Marketing Platform" width="150" height="100"/>
                 <h2>Google Marketing Platform</h2>
                 <p>Saiba como alcançar seus objetivos de marketing e consiga sua certificação em Google Marketing Platform.</p>
+                <a class="frame-7" href="https://marketingplatform.google.com/intl/pt-BR_br/about/">Clique aqui</a>
             </div>
 
             <div class="course-card">
-                <img src="img/Certificado Profissional de Suporte em TI.png" alt="Certificado Profissional de Suporte em TI" width="118" height="97"/>
+                <img src="img/cursos/Certificado-Profissional-de-Suporte-em-TI.png" alt="Certificado Profissional de Suporte em TI" width="150" height="100"/>
                 <h2>Certificado Profissional de Suporte em TI</h2>
                 <p>Especialistas em TI solucionam problemas para que computadores e redes funcionem corretamente.</p>
+                <a class="frame-7" href="https://www.coursera.org/professional-certificates/suporte-em-ti-do-google">Clique aqui</a>
             </div>
 
             <div class="course-card">
-                <img src="img/Certificado Profissional de Marketing Digital e E-Commerce.png" alt="Certificado Profissional de Marketing Digital e E-Commerce" width="118" height="97"/>
+                <img src="img/cursos/Certificado-Profissional-de-Marketing-Digital-e-E-Commerce.png" alt="Certificado Profissional de Marketing Digital e E-Commerce" width="150" height="100"/>
                 <h2>Certificado Profissional de Marketing Digital e E-Commerce</h2>
                 <p>Os profissionais de marketing digital usam ferramentas online para alcançar os clientes. Especialistas em e-commerce aumentam as vendas online.</p>
+                <a class="frame-7" href="https://grow.google/intl/pt/google-career-certificates/digital-marketing-ecommerce/">Clique aqui</a>
             </div>
 
             <div class="course-card">
-                <img src="img/Certificado Profissional de Análise de Dados.png" alt="Certificado Profissional de Análise de Dados" width="118" height="97"/>
+                <img src="img/cursos/Certificado-Profissional-de-Analise-de-Dados.png" alt="Certificado Profissional de Análise de Dados" width="150" height="100"/>
                 <h2>Certificado Profissional de Análise de Dados</h2>
                 <p>Os analistas de dados coletam, transformam e organizam dados para ajudar a tomar decisões de negócios informadas.</p>
+                <a class="frame-7" href="https://grow.google/intl/pt/google-career-certificates/data-analytics/">Clique aqui</a>
             </div>
 
             <div class="course-card">
-                <img src="img/Certificado Profissional de Gerenciamento de Projetos.png" alt="Certificado Profissional de Gerenciamento de Projetos" width="118" height="97"/>
+                <img src="img/cursos/Certificado-Profissional-de-Gerenciamento-de-Projetos.png" alt="Certificado Profissional de Gerenciamento de Projetos" width="150" height="100"/>
                 <h2>Certificado Profissional de Gerenciamento de Projetos</h2>
                 <p>Os gerentes de projeto garantem que os projetos dentro de uma organização sejam organizados e concluídos da melhor maneira possível.</p>
+                <a class="frame-7" href="https://grow.google/intl/pt/google-career-certificates/project-management/">Clique aqui</a>
             </div>
 
             <div class="course-card">
-                <img src="img/Certificado Profissional de UX Design.png" alt="Certificado Profissional de UX Design" width="118" height="97"/>
+                <img src="img/cursos/Certificado-Profissional-de-UX-Design.png" alt="Certificado Profissional de UX Design" width="150" height="100"/>
                 <h2>Certificado Profissional de UX Design</h2>
                 <p>Os designers de UX tornam os produtos digitais e físicos mais fáceis e agradáveis de usar.</p>
+                <a class="frame-7" href="https://www.coursera.org/google-certificates/certificado-ux-design">Clique aqui</a>
             </div>
 
             <div class="course-card">
-                <img src="img/Redes Sociais.png" alt="Redes Sociais" width="118" height="97"/>
-                <h2>Redes Sociais</h2>
+                <img src="img/cursos/Redes-Sociais.png" alt="Redes Sociais" width="150" height="100"/>
+                <h2>Senac | Redes Sociais</h2>
                 <p>Este curso tem como objetivo aperfeiçoar a produção de material nas redes sociais, com foco no interesse do público alvo, possibilitando assim interação e comunicação entre eles.</p>
+                <a class="frame-7" href="https://www.ead.senac.br/cursos-livres/redes-sociais-como-ferramenta-de-marketing/">Clique aqui</a>
             </div>
 
             <div class="course-card">
-                <img src="img/LinkedIn.png" alt="LinkedIn" width="118" height="97"/>
+                <img src="img/cursos/LinkedIn.png" alt="LinkedIn" width="150" height="100"/>
                 <h2>LinkedIn</h2>
                 <p>Nossos cursos de treinamento online do LinkedIn do LinkedIn Learning oferecem as competências que você precisa.</p>
+                <a class="frame-7" href="https://www.linkedin.com/learning/topics/linkedin?originalSubdomain=br">Clique aqui</a>
             </div>
             
         </section>
@@ -232,6 +294,7 @@
 
             </footer>
 
-    
-</body>
-</html>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        </body>
+        </html>

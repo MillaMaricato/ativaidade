@@ -721,6 +721,7 @@ Desktop: @media only screen and (min-width: 1280px)
 .media {
   flex-direction: column;
   align-items: center;
+  margin: 0px 0px 30px 0px;
 }
 
 .media, .agenda {
@@ -736,7 +737,7 @@ Desktop: @media only screen and (min-width: 1280px)
 }
 
 .group-5 {
-  padding: 5px 0px 5px 0px;
+  padding: 15px 0px 15px 0px;
   margin: 0px;
   display: grid;
   justify-items: start;
@@ -750,11 +751,18 @@ Desktop: @media only screen and (min-width: 1280px)
 
 /* imagem */
 
-.banner__img {
+.banner {
   width: 100%;
+  background-position: 35% 0%;
 }
 
 /* cabeçalho */
+
+.offcanvas.show:not(.hiding), .offcanvas.showing {
+  transform: none;
+  height: 450px;
+  width: 200px;
+}
 
 .group {
   gap: 5px;
@@ -766,10 +774,30 @@ Desktop: @media only screen and (min-width: 1280px)
 
 .navbar-boostrap {
   /*ajustar menu no mobile*/
+  background-color: #fff!important;
+}
+
+.navbar-nav {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0044cc;
+  text-decoration: none;
+  align-items: flex-start;
+  margin: 15px;
+}
+
+.btn.btn-outline-success {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0044cc;
+  padding: 15px;
+  border-radius: 5px;
+  border: 0;
+  margin: 0 10px;
+  align-items: center;
 }
 
 }
-
 
 /*desktop*/
 

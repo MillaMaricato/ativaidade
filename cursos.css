@@ -1,9 +1,10 @@
-/* Arquivo: cursos.css */
+/* Estilos gerais */
 
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -83,7 +84,6 @@ nav ul img {
   align-items: center;
   height: 38px;
   justify-content: flex-start;
-  margin: 0 0 0 38px;
   gap: 8px;
   font-size: 16px;
 }
@@ -95,7 +95,9 @@ nav ul img {
   padding: 15px;
   border-radius: 5px;
   border: 0;
+  margin: 0 10px;
 }
+
 
 /* cursos */ 
 
@@ -137,8 +139,21 @@ nav ul img {
 }
 
 .course-card img {
-  max-width: 100px;
+  max-width: 300px;
   margin-bottom: 20px;
+}
+
+.frame-7 {
+  display: inline-block;
+  margin-top: auto;
+  padding: 10px 20px;
+  background-color: #0044cc;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Rodapé */
@@ -169,36 +184,6 @@ nav ul img {
   text-align: left;
 }
 
-.footer p {
-  font-size: 16px;
-  font-weight: 600;
-  color: #fff;
-  margin-bottom: 10px;
-  text-align: center;
-  font-weight: normal;
-}
-
-/*
-.footer-section-1 {
-  border: 1px solid white;
-}
-
-.footer-section-2 {
-  border: 1px solid yellow;
-}
-
-.footer-inscricao {
-  border: 1px solid pink;
-}
-
-.footer-bottom {
-  border: 1px solid white;
-}
-
-.frame-29 {
-  border: 1px solid yellow;
-}
-*/
 
 .footer-section-1 ul li a, .footer-section-2 ul li a, .footer-inscricao ul li a {
   font-size: 15px;
@@ -245,9 +230,12 @@ nav ul img {
   flex: 1;
 }
 
-.footer-inscricao__text{
+.footer-inscricao__text {
   font-size: 16px;
   margin: 10px 0 0 0; 
+  font-weight: 600;
+  color: #fff;
+  font-weight: normal;
 }
 
 .footer-inscricao__form {
@@ -272,6 +260,14 @@ nav ul img {
   align-items: center;
   margin-top: 30px;
   font-size: 14px;
+  color: #fff;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  font-weight: normal;
 }
 
 .footer-bottom ul {
@@ -313,3 +309,78 @@ nav ul img {
   font-size: 16px;
   font-weight: bold;
 }
+
+
+/* Media Queries 
+
+Mobile: @media only screen and (min-width: 0px) and (max-width: 480px) 
+Tablet: @media only screen and (min-width: 481px) and (max-width: 768px) 
+Laptop: @media only screen and (min-width: 769px) and (max-width: 1279px) 
+Desktop: @media only screen and (min-width: 1280px) 
+
+*/
+
+/*mobile*/
+
+@media screen and (max-width: 768px) {
+
+  /* rodapé */
+  
+  .footer-bottom {
+    display: inline-grid;
+  }
+  
+  
+  /* cabeçalho */
+  
+  .offcanvas.show:not(.hiding), .offcanvas.showing {
+    transform: none;
+    height: 450px;
+    width: 200px;
+  }
+  
+  .group {
+    gap: 5px;
+    }
+  
+  .navbar-desktop {
+    display: none;
+  }
+  
+  .navbar-boostrap {
+    /*ajustar menu no mobile*/
+    background-color: #fff!important;
+  }
+  
+  .navbar-nav {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0044cc;
+    text-decoration: none;
+    align-items: flex-start;
+    margin: 15px;
+  }
+  
+  .btn.btn-outline-success {
+    color: #fff;
+    cursor: pointer;
+    background-color: #0044cc;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 10px;
+    align-items: center;
+  }
+  
+  }
+  
+  /*desktop*/
+  
+  @media screen and (min-width: 769px) {
+  
+    .navbar-boostrap {
+    display: none;
+    }
+  
+  
+  }
