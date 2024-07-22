@@ -330,7 +330,6 @@ Desktop: @media only screen and (min-width: 1280px)
     display: inline-grid;
   }
   
-  
   /* cabeçalho */
   
   .offcanvas.show:not(.hiding), .offcanvas.showing {
