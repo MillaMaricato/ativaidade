@@ -19,7 +19,7 @@
 
 <!-- MENU SUPERIOR -->
 
-        <nav>
+        <nav class="navbar-desktop">
                  <img src="img/logo_ativa-idade 2.png" alt="logo Ativa Idade com as cores azul e preto" width="118" height="97"/>
                     
                     <ul class="menu">    
@@ -37,12 +37,57 @@
                     </div>
             
         </nav>
+        
+
+
+    <nav class="navbar bg-light fixed-top navbar-boostrap">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Offcanvas navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
 
 
 <!-- BANNER -->
 
             <div class="banner">
-                <img class="banner__img" src="img/ativa-idade_casal-de-idosos-mexendo-no-computador.png" alt="casal de idosos mexendo no computador" width="1218" height="600"/>
+             <!--   <img class="banner__img" src="img/ativa-idade_casal-de-idosos-mexendo-no-computador.png" alt="casal de idosos mexendo no computador" width="1218" height="600"/>-->
             </div>
 
                 <div class="overlap-4">
@@ -192,13 +237,14 @@
 
 <!--imagem logo: 226x79px-->
 
+
         <h1>Nossos parceiros</h1>
 
         <p class="quem-nos-apoia">Saiba quem nos apoia</p>
 
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
+               <div class="carousel-item active">
                     <div class="carousel-item-container">
                         <div class="client-review"><img src="img/logo-loja_da_terceira_idade.png" class="w-40" alt="Loja da Terceira Idade"></div>
                         <div class="client-review"><img src="img/logo-vagas.png" class="w-40" alt="VAGAS"></div>
@@ -212,7 +258,7 @@
                 </div>
             </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                <!--<span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+                
                 <span class="seta-carousel"><</span>
                 <span class="visually-hidden">Previous</span>
                 </button>
@@ -222,23 +268,7 @@
                 </button>
         </div>
 
-<!--
-            <section class="parceiros">
-                <h1>Nossos parceiros</h1>
 
-                    <p class="quem-nos-apoia">Saiba quem nos apoia</p>
-                
-                <div class="container">
-                    <div class="client-review">
-                        <img class="vagas" src="img/logo-vagas.png"/>
-                    </div>
-                            
-                    <div class="client-review">
-                        <img class="terceira idade" src="img/logo-loja_da_terceira_idade.png"/>
-                    </div>
-                </div>    
-            </section>
--->
 
 
 <!-- DÚVIDAS FREQUENTES -->
