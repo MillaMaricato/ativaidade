@@ -310,7 +310,8 @@ nav ul img {
 
 .agenda {
   position: relative;
-  margin-right: 70px;
+  margin-right: 40px;
+  margin-left: 85px;
   min-width: 45%;
 }
 
