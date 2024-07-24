@@ -329,6 +329,10 @@ Desktop: @media only screen and (min-width: 1280px)
   .footer-bottom {
     display: inline-grid;
   }
+
+  .footer {
+    padding: 20px 20px;
+  }
   
   /* cabeçalho */
   
