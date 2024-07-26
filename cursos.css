@@ -324,7 +324,7 @@ Desktop: @media only screen and (min-width: 1280px)
 
 @media screen and (max-width: 768px) {
 
-  /* rodapé */
+/* rodapé */
   
   .footer-bottom {
     display: inline-grid;
@@ -334,7 +334,8 @@ Desktop: @media only screen and (min-width: 1280px)
     padding: 20px 20px;
   }
   
-  /* cabeçalho */
+  
+/* cabeçalho */
   
   .offcanvas.show:not(.hiding), .offcanvas.showing {
     transform: none;
@@ -351,7 +352,7 @@ Desktop: @media only screen and (min-width: 1280px)
   }
   
   .navbar-boostrap {
-    /*ajustar menu no mobile*/
+  /*ajustar menu no mobile*/
     background-color: #fff!important;
   }
   
@@ -377,7 +378,7 @@ Desktop: @media only screen and (min-width: 1280px)
   
   }
   
-  /*desktop*/
+/*desktop*/
   
   @media screen and (min-width: 769px) {
   

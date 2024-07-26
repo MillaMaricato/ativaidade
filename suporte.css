@@ -92,10 +92,19 @@ nav ul img {
 
 /* Banner */
 
-.banner__img {
+.banner-img {
     width: 100%;
     object-fit: cover;
     position: relative;
+  }
+  
+  .banner__img {
+    position: relative;
+    text-align: center; 
+    height: 600px;
+    width: 100%; 
+    background-image: url("./img/ativa-idade_tres-amigas-senhoras-conversando-e-mexendo-no-celular.png");
+    background-position: 50% 0%;
   }
 
 .overlap-4 {
@@ -423,7 +432,7 @@ Desktop: @media only screen and (min-width: 1280px)
 
 @media screen and (max-width: 768px) {
 
-  /* rodapé */
+/* rodapé */
   
   .footer-bottom {
     display: inline-grid;
@@ -433,7 +442,8 @@ Desktop: @media only screen and (min-width: 1280px)
     padding: 20px 20px;
   }
   
-  /* dúvidas */
+  
+/* dúvidas */
   
   .accordion {
     width: 90%;
@@ -443,7 +453,7 @@ Desktop: @media only screen and (min-width: 1280px)
   margin: 0px 20px 40px 20px;
 }
 
-  /* form */
+/* form */
 
   .form-titulo {
     margin: 0px 20px 40px 20px;
@@ -455,7 +465,7 @@ Desktop: @media only screen and (min-width: 1280px)
     max-width: 450px;
   }
   
-  /* imagem */
+/* imagem */
   
   .banner-img {
     width: 100%;
@@ -466,7 +476,7 @@ Desktop: @media only screen and (min-width: 1280px)
     font-size: 22px;
   }
   
-  /* cabeçalho */
+/* cabeçalho */
   
   .offcanvas.show:not(.hiding), .offcanvas.showing {
     transform: none;
@@ -509,7 +519,7 @@ Desktop: @media only screen and (min-width: 1280px)
   
   }
   
-  /*desktop*/
+/*desktop*/
   
   @media screen and (min-width: 769px) {
   

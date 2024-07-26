@@ -390,7 +390,7 @@ Desktop: @media only screen and (min-width: 1280px)
 
 @media screen and (max-width: 768px) {
 
-  /* rodapé */
+/* rodapé */
   
   .footer-bottom {
     display: inline-grid;
@@ -400,15 +400,16 @@ Desktop: @media only screen and (min-width: 1280px)
     padding: 20px 20px;
   }
   
-  /* vagas */
+  
+/* vagas */
   
   
   
-  /* imagem */
+/* imagem */
   
   
   
-  /* cabeçalho */
+/* cabeçalho */
   
   .offcanvas.show:not(.hiding), .offcanvas.showing {
     transform: none;
@@ -451,7 +452,7 @@ Desktop: @media only screen and (min-width: 1280px)
   
   }
   
-  /*desktop*/
+/*desktop*/
   
   @media screen and (min-width: 769px) {
   

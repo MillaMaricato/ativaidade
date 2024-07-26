@@ -769,10 +769,6 @@ Desktop: @media only screen and (min-width: 1280px)
   gap: 5px;
   }
 
-.navbar-desktop {
-  display: none;
-}
-
 .navbar-boostrap {
   /*ajustar menu no mobile*/
   background-color: #fff!important;
@@ -802,11 +798,9 @@ Desktop: @media only screen and (min-width: 1280px)
 
 /*desktop*/
 
-@media screen and (min-width: 769px) {
+@media screen and (max-width: 480px) {
 
-  .navbar-boostrap {
-  display: none;
-  }
+
 
 
 }
