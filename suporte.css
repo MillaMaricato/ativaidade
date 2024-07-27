@@ -26,11 +26,8 @@ h3 {
 
 /* Menu superior */
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: #fff; 
+.navbar {
+  background-color: #fff!important;
   padding: 10px 20px;
   position: sticky;
   top: 0;
@@ -43,10 +40,6 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-nav ul img {
-  margin-right: 20px;
 }
 
 .menu {
@@ -76,7 +69,6 @@ nav ul img {
   align-items: center;
   height: 38px;
   justify-content: flex-start;
-  margin: 0 0 0 38px;
   gap: 8px;
   font-size: 16px;
 }
@@ -88,6 +80,7 @@ nav ul img {
   padding: 15px;
   border-radius: 5px;
   border: 0;
+  margin: 0 10px;
 }
 
 /* Banner */
@@ -325,15 +318,15 @@ nav ul img {
 }
 
 .footer-inscricao__button {
-    font-size: 20px;
-    background-color: #0044cc;
-    color: #fff;
-    border-radius: 5px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
+  font-size: 20px;
+  background-color: #0044cc;
+  color: #fff;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
   }
 
 .footer-inscricao__input {
@@ -478,54 +471,66 @@ Desktop: @media only screen and (min-width: 1280px)
   
 /* cabeçalho */
   
-  .offcanvas.show:not(.hiding), .offcanvas.showing {
-    transform: none;
-    height: 450px;
-    width: 200px;
+.offcanvas.show:not(.hiding), .offcanvas.showing {
+  transform: none;
+  height: 450px;
+  width: 200px;
+}
+
+.group {
+  gap: 5px;
+  justify-content: center;
+  margin-bottom: 30px;
   }
-  
-  .group {
-    gap: 5px;
-    }
-  
-  .navbar-desktop {
-    display: none;
+
+.navbar-boostrap {
+  /*ajustar menu no mobile*/
+  background-color: #fff!important;
+}
+
+.navbar-nav {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0044cc;
+  text-decoration: none;
+  align-items: center;
+  margin: 30px 0px 30px 0px;
+  padding: 10px 0px 10px 0px;
+  line-height: 2.0;
+}
+
+.btn.btn-outline-success {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0044cc;
+  padding: 15px;
+  border-radius: 5px;
+  border: 0;
+  margin: 0 10px;
+  align-items: center;
+}
+
+}
+
+/*desktop do menu*/
+
+@media screen and (min-width: 992px) {
+
+  .menu {
+    flex: 1;
+    justify-content: center;
   }
-  
-  .navbar-boostrap {
-    /*ajustar menu no mobile*/
-    background-color: #fff!important;
-  }
-  
-  .navbar-nav {
-    font-size: 16px;
-    font-weight: bold;
-    color: #0044cc;
-    text-decoration: none;
-    align-items: flex-start;
-    margin: 15px;
-  }
-  
-  .btn.btn-outline-success {
-    color: #fff;
-    cursor: pointer;
-    background-color: #0044cc;
-    padding: 15px;
-    border-radius: 5px;
-    border: 0;
-    margin: 0 10px;
+
+  .navbar .collapse.navbar-collapse.container-nav {
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+
   }
-  
+
+  .img-container {
+    margin-left: 50px;
   }
-  
-/*desktop*/
-  
-  @media screen and (min-width: 769px) {
-  
-    .navbar-boostrap {
-    display: none;
-    }
-  
-  
-  }
+
+}

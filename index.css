@@ -25,15 +25,8 @@ h3 {
 
 /* Menu superior */
 
-.bg-light {
-  --bs-bg-opacity: 0;
-}
-
 .navbar {
-  background-color: fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  background-color: #fff!important;
   padding: 10px 20px;
   position: sticky;
   top: 0;
@@ -46,10 +39,6 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-nav ul img {
-  margin-right: 20px;
 }
 
 .menu {
@@ -79,7 +68,6 @@ nav ul img {
   align-items: center;
   height: 38px;
   justify-content: flex-start;
-  margin: 0 0 0 38px;
   gap: 8px;
   font-size: 16px;
 }
@@ -528,28 +516,6 @@ nav ul img {
   text-align: left;
 }
 
-/*
-.footer-section-1 {
-  border: 1px solid white;
-}
-
-.footer-section-2 {
-  border: 1px solid yellow;
-}
-
-.footer-inscricao {
-  border: 1px solid pink;
-}
-
-.footer-bottom {
-  border: 1px solid white;
-}
-
-.frame-29 {
-  border: 1px solid yellow;
-}
-*/
-
 .footer-section-1 ul li a, .footer-section-2 ul li a, .footer-inscricao ul li a {
   font-size: 15px;
   text-align: left;
@@ -772,6 +738,8 @@ Desktop: @media only screen and (min-width: 1280px)
 
 .group {
   gap: 5px;
+  justify-content: center;
+  margin-bottom: 30px;
   }
 
 .navbar-boostrap {
@@ -780,12 +748,14 @@ Desktop: @media only screen and (min-width: 1280px)
 }
 
 .navbar-nav {
-  font-size: 16px;
+  font-size: 22px;
   font-weight: bold;
   color: #0044cc;
   text-decoration: none;
-  align-items: flex-start;
-  margin: 15px;
+  align-items: center;
+  margin: 30px 0px 30px 0px;
+  padding: 10px 0px 10px 0px;
+  line-height: 2.0;
 }
 
 .btn.btn-outline-success {
@@ -801,14 +771,25 @@ Desktop: @media only screen and (min-width: 1280px)
 
 }
 
-/*desktop*/
+/*desktop do menu*/
 
-@media screen and (min-width: 481px) and (max-width: 1280px) {
+@media screen and (min-width: 992px) {
 
-.navbar-toggler {
-  display: none;
-}
+  .menu {
+    flex: 1;
+    justify-content: center;
+  }
 
+  .navbar .collapse.navbar-collapse.container-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
 
+  }
+
+  .img-container {
+    margin-left: 50px;
+  }
 
 }

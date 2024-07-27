@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="vagas.css"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Antique:wght@400&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Antique:wght@400&display=swap />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap />
     
     <title>Ativa Idade - Vagas</title>
     <meta name="description" content="Garantir qualidade de vida e lazer para idosos.">
@@ -17,85 +17,57 @@
 
 <!-- MENU SUPERIOR -->
 
-            <nav class="navbar-desktop">
-                <img src="img/logo_ativa-idade 2.png" alt="logo Ativa Idade com as cores azul e preto" width="118" height="97"/>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <img class="img-container" src="img/logo_ativa-idade 2.png" alt="logo Ativa Idade com as cores azul e preto" width="118" height="97"/>
                 
-                <ul class="menu">    
-                    <li><a class="menu__item" href="index.html">Página inicial</a></li>
-                    <!-- <li><a class="menu__item" href="index.html">Quem somos</a></li> -->
-                    <li><a class="menu__item" href="vagas.html">Vagas</a></li>
-                    <li><a class="menu__item" href="cursos.html">Cursos</a></li>
-                    <li><a class="menu__item" href="index.html">Agenda</a></li>
-                    <li><a class="menu__item" href="suporte.html">Suporte</a></li>
-                </ul>  
-                
-                <div class="group">
-                <button class="menu__button">Cadastre-se</button>
-                <button class="menu__button">Entrar</button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></h1>
+                </button>
+
+                <div class="container-nav collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav menu">    
+                        <li><a class="menu__item" href="index.html">Página inicial</a></li>
+                        <li><a class="menu__item" href="vagas.html">Vagas</a></li>
+                        <li><a class="menu__item" href="cursos.html">Cursos</a></li>
+                        <li><a class="menu__item" href="index.html">Agenda</a></li>
+                        <li><a class="menu__item" href="suporte.html">Suporte</a></li>
+                    </ul>
+
+                    <div class="group">
+                        <button class="menu__button">Cadastre-se</button>
+                        <button class="menu__button">Entrar</button>
+                    </div>
+                    </div>  
+
                 </div>
-
+                </div>
             </nav>
 
-
-            <nav class="navbar bg-light fixed-top navbar-boostrap">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/logo_ativa-idade 2.png" alt="logo Ativa Idade com as cores azul e preto" width="90" height="70"/></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Página inicial</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="vagas.html">Vagas</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="cursos.html">Cursos</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link active" href="agenda.html">Agenda</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link active" href="suporte.html">Suporte</a>
-                </li>
-            </ul>
-            <form class="d-flex mt-3" role="cadastro">
-            <button class="btn btn-outline-success" type="submit">Cadastre-se</button>
-            </form>
-            <form class="d-flex mt-3" role="entrar">
-            <button class="btn btn-outline-success" type="submit">Entrar</button>
-            </form>
-            </div>
-            </div>
-            </div>
-            </nav>
 
 
 <!-- BANNER/CHAMADA -->
 
-            <div class="vagas">
-                <span class="text-wrapper">Oportunidades para pessoas maduras</span>
+        <main>
+            <section class="hero">
+                <h1>Oportunidades para pessoas maduras</h1>
+                <p>A Ativa Idade oferece aos 50+ oportunidades de renda e ocupação em diferentes formatos, atualização técnica e comportamental alinhados ao novo mundo do trabalho, além de muita conexão!</p>
+                <br>
 
-                <p class="text-wrapper-2">A Ativa Idade oferece aos 50+ oportunidades de renda e ocupação em diferentes formatos, atualização técnica e comportamental alinhados ao novo mundo do trabalho, além de muita conexão!</p>
-        
-                <p class="p">Digite um cargo, cidade ou estado</p>
-
-                <div class="frame-2">Buscar</div>
-                    <img class="icon-feather-icon-3" src="img/feather-icon-2.svg"/>
+                <div class="bg-body-busca">
+                    <form class="d-flex" role="search">
+                        <input class="form-control__input" type="search" placeholder="Digite um cargo, cidade ou estado" aria-label="Search">
+                        
+                        <div class="group">
+                            <button class="menu__button__busca">Buscar</button>
+                        </div>
+                    </form>
                 </div>
 
-                  
-                <div class="overlap-group-2">
-                    <img class="icon-circle-fill" src="img/icon-circle-fill.png"/>
-                     <img class="icon-feather-icon" src="img/feather-icon-3.svg"/>
-                </div>
-            </div>
+            </section>
+        </main>
 
 
 <!-- ACESSIBILIDADE 
@@ -106,8 +78,8 @@
                                     <img class="icon-feather-icon-2" src="img/feather-icon.svg"/>
                                 </div>
                             </div>
-                                    <p class="a"><span class="span">A+</span></p>
-                                    <p class="a-2"><span class="span">A-</span></p>
+                                    <p class="a"><span class="span">A+</h1></p>
+                                    <p class="a-2"><span class="span">A-</h1></p>
                                     <img class="vector" src="img/vector.svg"/>
                                     <div class="mao-wrapper"><img class="mao" src="img/mao-1.png"/></div>
                                     </div>
@@ -116,163 +88,183 @@
 -->
 
 
-<!-- LISTAGEM VAGAS -->                                
+<!-- LISTAGEM VAGAS -->      
+ 
+                <div class="container_vagas">
 
-                        <section>
+                    
 
-                            <span class="titulo-vaga">Analista de Pesquisa e Desenvolvimento Sênior - Exp. em Desenv. de Cosméticos para Pele - P/Osasco</span>
-                            <p class="text-wrapper-6">Confidencial</p>
-                            <p class="text-wrapper-6">Sênior</p> 
-                            <p class="text-wrapper-7">Descrição: Estamos em busca de um(a) Analista de Pesquisa e Desenvolvimento Sênior com experiência em desenvolvimento de cosméticos para pele para se juntar à nossa equipe em Osasco.A vaga é Temporária, para cobrir licença-maternidade.Responsabilidades:- Desenvolver e aprimorar formulações de produtos cosméticos...</p>
-                            <p class="text-wrapper-7">São Paulo</p>
-                            <p class="text-wrapper-7">27/09/2023</p>
+                    <!-- <aside id="pesquisa_filtros">    
 
+                        <div class="overlap-2">
+                            <button class="menu__button">Refine sua busca</button>
+                        </div>
 
-                            <span class="titulo-vaga">Business Partner RH - Especialista em Pessoas</span>
-                            <p class="text-wrapper-6">BR Talent</p>
-                            <p class="text-wrapper-6">Sênior</p>
-                            <p class="text-wrapper-7">Descrição: RESPONSABILIDADES: Participar ativamente de definições estratégicas sobre estrutura, suportando as discussões com indicadores quali e quanti sobre headcount, diversidade, performance entre outros. Acompanhamento direto e contínuo de 100% da liderança da Diretoria Comercial para apoio ao desenvolvimento individual, gestão da equipe e de conflitos Desenvolvimento de ações de clima junto a...</p>
-                            <p class="text-wrapper-7">São Paulo</p>
-                            <p class="text-wrapper-7">04/10/2023</p>
-                        
-
-                            <span class="titulo-vaga">Analista de Segurança da Informação Sênior</span>
-                            <p class="text-wrapper-6">Global Hitss</p>
-                            <p class="text-wrapper-6">Sênior</p>
-                            <p class="text-wrapper-7">Descrição: Requisitos e conhecimentos necessários: Ensino superior completo; Experiência com: Segurança Perimetral; Fortinet; PaloAlto; Checkpoint; Protocolo TCP/IP e Next Generation Firewall; Troubleshooting; Suporte as principais soluções do mercado: Firewalls, Filtro de Conteúdo, UTM, Anti-Spam.Principais atribuições da função:Atuar como terceiro nível de atendimento na equipe de operação de Firewall...</p>
-                            <p class="text-wrapper-7">Brasil</p>
-                            <p class="text-wrapper-7">05/10/2023</p>
-                            
-
-                            <span class="titulo-vaga">Pessoa Desenvolvedora Advpl Sênior</span>
-                            <p class="text-wrapper-6">TOTVS</p>
-                            <p class="text-wrapper-6">Sênior</p>
-                            <p class="text-wrapper-7">Descrição: Acreditamos no poder transformador da tecnologia e na sua capacidade de contribuir para a construção de uma sociedade mais diversa e inclusiva. Como a maior empresa brasileira de tecnologia, temos o compromisso com uma política e programa de diversidade e inclusão para termos um ecossistema cada vez mais representativo, respeitoso e acolhedor. O QUE VOCÊ VAI FAZER: Atuar com desenvolvi...</p>
-                            <p class="text-wrapper-7">São Paulo / SP</p>
-                            <p class="text-wrapper-7">04/09/2023</p>
-
-
-                            <span class="titulo-vaga">Analista Contábil Sr.</span>
-                            <p class="text-wrapper-6">ADM do Brasil</p>
-                            <p class="text-wrapper-6">Sênior</p>
-                            <p class="text-wrapper-7">Descrição: Acompanhar os resultados dos inventários físicos de matéria-prima e produtos de Almoxarifado, analisando a contagem, apurando as diferenças em valores e definindo procedimentos para ajuste das informações. Pré-requisitos: Curso superior completo em Ciências Contabilidade, Pós-Graduação em Gestão Financeira, Controladoria, Auditoria ou áreas afins. (Desejável); Habilidade Analítica e Sistêm...</p>
-                            <p class="text-wrapper-7">Manaus / AM</p>
-                            <p class="text-wrapper-7">05/10/2023</p>
-
-
-                            <span class="titulo-vaga">Executivo de Vendas Canal Direto e Indireto</span>
-                            <p class="text-wrapper-6">Trane Tecnhnologies</p>
-                            <p class="text-wrapper-6">Sênior</p>
-                            <p class="text-wrapper-7">Descrição: Resumo do trabalho: A Trane Technologies está em busca de Executivo(a) de Vendas para atuação no canal de vendas diretas e indiretas. Este profissional irá realizar a identificação e prospecção de novos negócios visando gerar valor por meio das soluções de vendas de produtos e serviços, através da elaboração e negociação de propostas comerciais e do suporte e acompanhamento aos client...</p>
-                            <p class="text-wrapper-7">São Paulo / SP</p>
-                            <p class="text-wrapper-7">06/10/2023</p>
-                            
-
-                            <span class="titulo-vaga">Desenvolvedor(a) Back-end Kotlin Sênior</span>
-                            <p class="text-wrapper-6">Personale Consultoria de RH</p>
-                            <p class="text-wrapper-6">Sênior</p>
-                            <p class="text-wrapper-7">Descrição: Personale Consultoria busca profissional para atuar em uma empresa de tecnologia de serviços financeiros. Atividades: • Criar, evoluir e dar manutenção nos componentes de software que compõem a plataforma da empresa, através do desenvolvimento de softwares; • Participar de reuniões recorrentes do time para reportar o status das atividades que estão sob a sua responsabilidade, e se colo...</p>
-                            <p class="text-wrapper-7">100% Home Office</p>
-                            <p class="text-wrapper-7">29/08/2023</p>
-
-                            
-                            <span class="titulo-vaga">Analista de Meio Ambiente Sênior</span>
-                            <p class="text-wrapper-6">ArcelorMittal</p>
-                            <p class="text-wrapper-6">Sênior</p>
-                            <p class="text-wrapper-7">Descrição: que tal ser parte do nosso timaço? Nosso propósito é produzir aços inteligentes para as pessoas e o planeta, cumprindo nosso papel na indústria de maneira segura e sustentável, rumo à neutralização da emissão de carbono. Já deu para imaginar como são intensos e constantes os desafios, certo? E é isso mesmo...</p>
-                            <p class="text-wrapper-7">Brasil</p>
-                            <p class="text-wrapper-7">26/09/2023</p>
-
-                            
-                            <span class="titulo-vaga">Analista Tesouraria Sr</span>
-                            <p class="text-wrapper-6">Unidas</p>
-                            <p class="text-wrapper-6">Sênior</p> 
-                            <p class="text-wrapper-7">Descrição: A Unidas está à procura de profissionais com Ownership, Energia e Foco em Resultados. Estamos com uma oportunidade para Curitiba - PR para Analista de Tesouraria SR, para atuar nos seguintes desafios: Idiomas:Inglês - Nível IntermediárioOutros requisitos: Contratação, gestão e controle de derivativos para cobertura de exposição cambial de dívidas, e gestão de ativos e passivos com expo...</p>
-                            <p class="text-wrapper-7">Curitiba / PR</p>
-                            <p class="text-wrapper-7">03/10/2023</p>
-
-                            
-                            <span class="titulo-vaga">Engenheiro da Qualidade</span>
-                            <p class="text-wrapper-6">Joyson Safety Systems</p>
-                            <p class="text-wrapper-6">Sênior</p>
-                            <p class="text-wrapper-7">Descrição: Engenheiro da Qualidade Manufatura. Formação: Superior completa (com certificado/diploma de conclusão) em Engenharia Mecânica, Mecatrônica, Produção, Elétrica, Automação Industrial ou correlatas; CREA ativo. Experiência: Gerenciamento e análise de reclamações de clientes internos e externos, gestão de 8D, processos de gerenciamento de Scorecards, requisitos de clientes; Atuação com process...</p>
-                            <p class="text-wrapper-7">São Paulo</p>
-                            <p class="text-wrapper-7">03/10/2023</p>
-
-                           
-                            <span class="titulo-vaga">Analista de Negócios Sr – SAP B1</span>
-                            <p class="text-wrapper-6">Hyundai AutoEver Brasil</p>
-                            <p class="text-wrapper-6">Sênior</p> 
-                            <p class="text-wrapper-7">Descrição: Você é apaixonado(a) por tecnologia? Sonha em trabalhar em uma empresa pra lá de especial? Então sua hora chegou! Olha só nossa oportunidade! Analista de Negócios Sr – SAP B1 Information System TeamO que estamos buscando? • Pessoas apaixonadas pela área de Tecnologia da Informação. • Conhecimento avançado em SAP B1.• Conhecimentos em SQL (Microsoft SQL Server). • Background em Desenvolv...</p>
-                            <p class="text-wrapper-7">Piracicaba / SP</p>
-                            <p class="text-wrapper-7">30/08/2023</p>
-                            
-                           
-                            <div class="overlap-4">
-                                <p class="text-wrapper-11">Mostrar mais vagas</p>
-                            </div>
-
-                        </section>
-
-                            
-                    <section>   
+                        <div class="filtros_vagas">   
                             <div class="dropdown">Local de trabalho
-                                <p class="text-wrapper-13">Na empresa</p>
-                                <p class="text-wrapper-13">Na Empresa e Home Office</p>
-                                <p class="text-wrapper-13">100% Home Office</p>
+                                <p>Na empresa</p>
+                                <p>Na Empresa e Home Office</p>
+                                <p>100% Home Office</p>
                             </div>
 
                             <div class="dropdown">Tipo de contratação
-                                <p class="text-wrapper-13">Regime CLT</p>
-                                <p class="text-wrapper-13">Temporário</dp>
-                                <p class="text-wrapper-13">Estágio</p>
-                                <p class="text-wrapper-13">Pessoa Jurídica</p>
-                                <p class="text-wrapper-13">Associado</p>
+                                <p>Regime CLT</p>
+                                <p>Temporário</p>
+                                <p>Estágio</p>
+                                <p>Pessoa Jurídica</p>
+                                <p>Associado</p>
                             </div>
 
                             <div class="dropdown">Estado
-                                <p class="text-wrapper-13">Acre (AC)</p>
-                                <p class="text-wrapper-13">Alagoas (AL)</p>
-                                <p class="text-wrapper-13">Amapá (AP)</p>
-                                <p class="text-wrapper-13">Amazonas (AM)</p>
-                                <p class="text-wrapper-13">Bahia (BA)</p>
-                                <p class="text-wrapper-13">Ceará (CE)</p>
+                                <p>Acre (AC)</p>
+                                <p>Alagoas (AL)</p>
+                                <p>Amapá (AP)</p>
+                                <p>Amazonas (AM)</p>
+                                <p>Bahia (BA)</p>
+                                <p>Ceará (CE)</p>
                             </div>
                         
                             <div class="dropdown">Cidade
-                                <p class="text-wrapper-13">São Paulo / SP</p>
-                                <p class="text-wrapper-13">Rio de Janeiro / RJ</p>
-                                <p class="text-wrapper-13">Belo Horizonte / MG</p>
-                                <p class="text-wrapper-13">Curitiba / PR</p>
-                                <p class="text-wrapper-13">Campinas / SP</p>
-                                <p class="text-wrapper-13">Brasília / DF</p>
+                                <p>São Paulo / SP</p>
+                                <p>Rio de Janeiro / RJ</p>
+                                <p>Belo Horizonte / MG</p>
+                                <p>Curitiba / PR</p>
+                                <p>Campinas / SP</p>
+                                <p>Brasília / DF</p>
                             </div>
 
                             <div class="dropdown">Nível
-                                <p class="text-wrapper-13">Auxiliar / Operacional</p>
-                                <p class="text-wrapper-13">Junior / Trainee</p>
-                                <p class="text-wrapper-13">Pleno</p>
-                                <p class="text-wrapper-13">Técnico</p>
-                                <p class="text-wrapper-13">Sênior</p>
-                                <p class="text-wrapper-13">Estágio</p>
-                                <p class="text-wrapper-13">Supervisão / Coordenação</p>
-                                <p class="text-wrapper-13">Gerência</p>
-                                <p class="text-wrapper-13">Diretoria</p>
+                                <p>Auxiliar / Operacional</p>
+                                <p>Junior / Trainee</p>
+                                <p>Pleno</p>
+                                <p>Técnico</p>
+                                <p>Sênior</p>
+                                <p>Estágio</p>
+                                <p>Supervisão / Coordenação</p>
+                                <p>Gerência</p>
+                                <p>Diretoria</p>
                             </div>
 
                             <div class="dropdown">Áreas
-                                <p class="text-wrapper-13">Administração Comercial / Vendas</p>
-                                <p class="text-wrapper-13">Atendimento a Cliente</p>
-                                <p class="text-wrapper-13">Vendas</p>
-                                <p class="text-wrapper-13">Administração de Empresas</p>
-                                <p class="text-wrapper-13">Vendas - Varejo</p>
-                                <p class="text-wrapper-13">Farmácia</p>
-                                <p class="text-wrapper-13">Serviços Administrativos</p>
-                                <p class="text-wrapper-13">Logística</p>
-                                <p class="text-wrapper-13">Vendas Técnicas</p>
+                                <p>Administração Comercial / Vendas</p>
+                                <p>Atendimento a Cliente</p>
+                                <p>Vendas</p>
+                                <p>Administração de Empresas</p>
+                                <p>Vendas - Varejo</p>
+                                <p>Farmácia</p>
+                                <p>Serviços Administrativos</p>
+                                <p>Logística</p>
+                                <p>Vendas Técnicas</p>
+                            </div>
+                    </aside> -->
+    
+                        <div class="lista_vagas">
+                            <div class="card_vagas">
+                                <h1>Analista de Pesquisa e Desenvolvimento Sênior - Exp. em Desenv. de Cosméticos para Pele - P/Osasco</h1>
+                                <p class="text-wrapper-6">Confidencial</p>
+                                <p class="text-wrapper-6">Sênior</p> 
+                                <p class="text-wrapper-7">Descrição: Estamos em busca de um(a) Analista de Pesquisa e Desenvolvimento Sênior com experiência em desenvolvimento de cosméticos para pele para se juntar à nossa equipe em Osasco.A vaga é Temporária, para cobrir licença-maternidade.Responsabilidades:- Desenvolver e aprimorar formulações de produtos cosméticos...</p>
+                                <p class="text-wrapper-7">São Paulo</p>
+                                <p class="text-wrapper-7">27/09/2023</p>
                             </div>
 
-                    </section> 
+                            <div class="card_vagas">
+                                <h1>Business Partner RH - Especialista em Pessoas</h1>
+                                <p class="text-wrapper-6">BR Talent</p>
+                                <p class="text-wrapper-6">Sênior</p>
+                                <p class="text-wrapper-7">Descrição: RESPONSABILIDADES: Participar ativamente de definições estratégicas sobre estrutura, suportando as discussões com indicadores quali e quanti sobre headcount, diversidade, performance entre outros. Acompanhamento direto e contínuo de 100% da liderança da Diretoria Comercial para apoio ao desenvolvimento individual, gestão da equipe e de conflitos Desenvolvimento de ações de clima junto a...</p>
+                                <p class="text-wrapper-7">São Paulo</p>
+                                <p class="text-wrapper-7">04/10/2023</p>
+                            </div>
+                        
+                            <div class="card_vagas">
+                                <h1>Analista de Segurança da Informação Sênior</h1>
+                                <p class="text-wrapper-6">Global Hitss</p>
+                                <p class="text-wrapper-6">Sênior</p>
+                                <p class="text-wrapper-7">Descrição: Requisitos e conhecimentos necessários: Ensino superior completo; Experiência com: Segurança Perimetral; Fortinet; PaloAlto; Checkpoint; Protocolo TCP/IP e Next Generation Firewall; Troubleshooting; Suporte as principais soluções do mercado: Firewalls, Filtro de Conteúdo, UTM, Anti-Spam.Principais atribuições da função:Atuar como terceiro nível de atendimento na equipe de operação de Firewall...</p>
+                                <p class="text-wrapper-7">Brasil</p>
+                                <p class="text-wrapper-7">05/10/2023</p>
+                            </div>
+
+                            <div class="card_vagas">
+                                <h1>Pessoa Desenvolvedora Advpl Sênior</h1>
+                                <p class="text-wrapper-6">TOTVS</p>
+                                <p class="text-wrapper-6">Sênior</p>
+                                <p class="text-wrapper-7">Descrição: Acreditamos no poder transformador da tecnologia e na sua capacidade de contribuir para a construção de uma sociedade mais diversa e inclusiva. Como a maior empresa brasileira de tecnologia, temos o compromisso com uma política e programa de diversidade e inclusão para termos um ecossistema cada vez mais representativo, respeitoso e acolhedor. O QUE VOCÊ VAI FAZER: Atuar com desenvolvi...</p>
+                                <p class="text-wrapper-7">São Paulo / SP</p>
+                                <p class="text-wrapper-7">04/09/2023</p>
+                            </div>
+
+                            <div class="card_vagas">
+                                <h1>Analista Contábil Sr.</h1>
+                                <p class="text-wrapper-6">ADM do Brasil</p>
+                                <p class="text-wrapper-6">Sênior</p>
+                                <p class="text-wrapper-7">Descrição: Acompanhar os resultados dos inventários físicos de matéria-prima e produtos de Almoxarifado, analisando a contagem, apurando as diferenças em valores e definindo procedimentos para ajuste das informações. Pré-requisitos: Curso superior completo em Ciências Contabilidade, Pós-Graduação em Gestão Financeira, Controladoria, Auditoria ou áreas afins. (Desejável); Habilidade Analítica e Sistêm...</p>
+                                <p class="text-wrapper-7">Manaus / AM</p>
+                                <p class="text-wrapper-7">05/10/2023</p>
+                            </div>
+
+                            <div class="card_vagas">
+                                <h1>Executivo de Vendas Canal Direto e Indireto</h1>
+                                <p class="text-wrapper-6">Trane Tecnhnologies</p>
+                                <p class="text-wrapper-6">Sênior</p>
+                                <p class="text-wrapper-7">Descrição: Resumo do trabalho: A Trane Technologies está em busca de Executivo(a) de Vendas para atuação no canal de vendas diretas e indiretas. Este profissional irá realizar a identificação e prospecção de novos negócios visando gerar valor por meio das soluções de vendas de produtos e serviços, através da elaboração e negociação de propostas comerciais e do suporte e acompanhamento aos client...</p>
+                                <p class="text-wrapper-7">São Paulo / SP</p>
+                                <p class="text-wrapper-7">06/10/2023</p>
+                            </div>
+                        
+                            <div class="card_vagas">
+                                <h1>Desenvolvedor(a) Back-end Kotlin Sênior</h1>
+                                <p class="text-wrapper-6">Personale Consultoria de RH</p>
+                                <p class="text-wrapper-6">Sênior</p>
+                                <p class="text-wrapper-7">Descrição: Personale Consultoria busca profissional para atuar em uma empresa de tecnologia de serviços financeiros. Atividades: • Criar, evoluir e dar manutenção nos componentes de software que compõem a plataforma da empresa, através do desenvolvimento de softwares; • Participar de reuniões recorrentes do time para reportar o status das atividades que estão sob a sua responsabilidade, e se colo...</p>
+                                <p class="text-wrapper-7">100% Home Office</p>
+                                <p class="text-wrapper-7">29/08/2023</p>
+                            </div>
+
+                            <div class="card_vagas">
+                                <h1>Analista de Meio Ambiente Sênior</h1>
+                                <p class="text-wrapper-6">ArcelorMittal</p>
+                                <p class="text-wrapper-6">Sênior</p>
+                                <p class="text-wrapper-7">Descrição: que tal ser parte do nosso timaço? Nosso propósito é produzir aços inteligentes para as pessoas e o planeta, cumprindo nosso papel na indústria de maneira segura e sustentável, rumo à neutralização da emissão de carbono. Já deu para imaginar como são intensos e constantes os desafios, certo? E é isso mesmo...</p>
+                                <p class="text-wrapper-7">Brasil</p>
+                                <p class="text-wrapper-7">26/09/2023</p>
+                            </div>
+
+                            <div class="card_vagas">
+                                <h1>Analista Tesouraria Sr</h1>
+                                <p class="text-wrapper-6">Unidas</p>
+                                <p class="text-wrapper-6">Sênior</p> 
+                                <p class="text-wrapper-7">Descrição: A Unidas está à procura de profissionais com Ownership, Energia e Foco em Resultados. Estamos com uma oportunidade para Curitiba - PR para Analista de Tesouraria SR, para atuar nos seguintes desafios: Idiomas:Inglês - Nível IntermediárioOutros requisitos: Contratação, gestão e controle de derivativos para cobertura de exposição cambial de dívidas, e gestão de ativos e passivos com expo...</p>
+                                <p class="text-wrapper-7">Curitiba / PR</p>
+                                <p class="text-wrapper-7">03/10/2023</p>
+                            </div>
+
+                            <div class="card_vagas">
+                                <h1>Engenheiro da Qualidade</h1>
+                                <p class="text-wrapper-6">Joyson Safety Systems</p>
+                                <p class="text-wrapper-6">Sênior</p>
+                                <p class="text-wrapper-7">Descrição: Engenheiro da Qualidade Manufatura. Formação: Superior completa (com certificado/diploma de conclusão) em Engenharia Mecânica, Mecatrônica, Produção, Elétrica, Automação Industrial ou correlatas; CREA ativo. Experiência: Gerenciamento e análise de reclamações de clientes internos e externos, gestão de 8D, processos de gerenciamento de Scorecards, requisitos de clientes; Atuação com process...</p>
+                                <p class="text-wrapper-7">São Paulo</p>
+                                <p class="text-wrapper-7">03/10/2023</p>
+                            </div>
+
+                            <div class="card_vagas">
+                                <h1>Analista de Negócios Sr – SAP B1</h1>
+                                <p class="text-wrapper-6">Hyundai AutoEver Brasil</p>
+                                <p class="text-wrapper-6">Sênior</p> 
+                                <p class="text-wrapper-7">Descrição: Você é apaixonado(a) por tecnologia? Sonha em trabalhar em uma empresa pra lá de especial? Então sua hora chegou! Olha só nossa oportunidade! Analista de Negócios Sr – SAP B1 Information System TeamO que estamos buscando? • Pessoas apaixonadas pela área de Tecnologia da Informação. • Conhecimento avançado em SAP B1.• Conhecimentos em SQL (Microsoft SQL Server). • Background em Desenvolv...</p>
+                                <p class="text-wrapper-7">Piracicaba / SP</p>
+                                <p class="text-wrapper-7">30/08/2023</p>
+                            </div>
+                           
+                            <div class="overlap-4">
+                                <button class="menu__button">Mostrar mais vagas</button>
+                            </div>
+                        </div>
+
+
+                    </div>     
 
                     
 <!-- RODAPÉ -->
