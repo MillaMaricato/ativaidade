@@ -15,8 +15,8 @@ h1 {
   text-align: center;
 }
 
-h3 {
-  font-size: 22px;
+h2 {
+  font-size: 20px;
   font-weight: 600;
   color: #333;
   margin-bottom: 10px;
@@ -92,6 +92,22 @@ nav ul {
 }
 
 /* VAGAS */
+
+.linkMais {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0044cc;
+  margin: 8px 10px;
+  text-transform: uppercase;
+  display: block;
+  clear: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dropdown ul li {
+
+}
 
 .hero {
   background-color: #0044cc;
